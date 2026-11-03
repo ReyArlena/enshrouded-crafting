@@ -11,6 +11,25 @@ const NPCS = new Set([
   'Collector', 'Farmer', 'Fisher', 'Hunter', 'Lunar New Year Trader',
 ])
 
+// The wiki spells some item types several ways. Keys are lower case; null drops junk values.
+const TYPE_ALIASES: Record<string, string | null> = {
+  arrow: 'Bow Ammo',
+  'bow ammo': 'Bow Ammo',
+  'bow ammunition': 'Bow Ammo',
+  consumable: 'Consumables',
+  material: 'Materials',
+  spells: 'Spell',
+  tool: 'Tools',
+  'two-handed greatsword': 'Two-handed Greatsword',
+  x: null,
+}
+
+function normalizeType(type: string | null): string | null {
+  if (!type) return null
+  const key = type.toLowerCase()
+  return key in TYPE_ALIASES ? TYPE_ALIASES[key] : type
+}
+
 type Params = Record<string, string>
 type Recipe = {
   crafter: string | null
@@ -136,7 +155,7 @@ function parseInfobox(wikitext: string, page: string) {
   const p = box ? parseParams(box) : {}
   const image = clean((p['images'] ?? p['image'] ?? '').replace(/\{\{\s*(SUB)?PAGENAME\s*\}\}/g, page))
   return {
-    type: clean(p['type']),
+    type: normalizeType(clean(p['type'])),
     rarity: clean(p['rarity']),
     level: Number(clean(p['level'])) || null,
     biomes: clean(p['biomes']),

@@ -53,7 +53,7 @@
           </div>
         </div>
       </template>
-      <button x-show="results.length > limit" class="control mx-auto block" @click="limit += 150">Show more</button>
+      <button x-show="results.length > shownCount" class="control mx-auto block" @click="limit = shownCount + 150">Show more</button>
     </section>
 
     <aside x-show="selected" class="detail-wrap" @keydown.escape.window="selected = null">

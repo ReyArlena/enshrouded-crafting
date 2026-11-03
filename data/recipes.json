@@ -391,7 +391,7 @@
  },
  {
   "name": "Alchemical Base",
-  "type": "Material",
+  "type": "Materials",
   "rarity": "Common",
   "level": 16,
   "biomes": null,
@@ -772,7 +772,7 @@
  },
  {
   "name": "Aloe",
-  "type": "Material",
+  "type": "Materials",
   "rarity": "Common",
   "level": 25,
   "biomes": "Nomad Highlands",
@@ -1733,7 +1733,7 @@
  },
  {
   "name": "Ancient Health Potion",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -1770,7 +1770,7 @@
  },
  {
   "name": "Ancient Health Potion +",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -1799,7 +1799,7 @@
  },
  {
   "name": "Ancient Mana Potion",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -1832,7 +1832,7 @@
  },
  {
   "name": "Ancient Mana Potion +",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -3784,7 +3784,7 @@
  },
  {
   "name": "Aurora Bean Rice",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -3822,7 +3822,7 @@
  },
  {
   "name": "Aurora Beans",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -7062,7 +7062,7 @@
  },
  {
   "name": "Bloomheart Fruit",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -7626,7 +7626,7 @@
  },
  {
   "name": "Blunt Arrow",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 47,
   "biomes": null,
@@ -7725,7 +7725,7 @@
  },
  {
   "name": "Bone Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 12,
   "biomes": null,
@@ -9248,7 +9248,7 @@
  },
  {
   "name": "Bronze Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 18,
   "biomes": null,
@@ -10582,7 +10582,7 @@
  },
  {
   "name": "Cabbage Mushroom Rice",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -11779,7 +11779,7 @@
  },
  {
   "name": "Celestium Arrow",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 47,
   "biomes": null,
@@ -11973,7 +11973,7 @@
  },
  {
   "name": "Celestium Pickaxe",
-  "type": "Tool",
+  "type": "Tools",
   "rarity": null,
   "level": 45,
   "biomes": null,
@@ -12515,7 +12515,7 @@
  },
  {
   "name": "Cinderscale",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Epic",
   "level": null,
   "biomes": null,
@@ -13977,7 +13977,7 @@
  },
  {
   "name": "Copper Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 12,
   "biomes": null,
@@ -16746,7 +16746,7 @@
  },
  {
   "name": "Date",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": null,
   "level": null,
   "biomes": null,
@@ -21266,7 +21266,7 @@
  },
  {
   "name": "Eternal Ember Arrow I",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Rare",
   "level": 15,
   "biomes": null,
@@ -21297,7 +21297,7 @@
  },
  {
   "name": "Eternal Ember Arrow II",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Epic",
   "level": 28,
   "biomes": null,
@@ -21328,7 +21328,7 @@
  },
  {
   "name": "Eternal Ember Arrow III",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Legendary",
   "level": 45,
   "biomes": null,
@@ -21581,7 +21581,7 @@
  },
  {
   "name": "Eternal Frost Arrow II",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Epic",
   "level": 29,
   "biomes": null,
@@ -21612,7 +21612,7 @@
  },
  {
   "name": "Eternal Frost Arrow III",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Legendary",
   "level": 45,
   "biomes": null,
@@ -21643,7 +21643,7 @@
  },
  {
   "name": "Eternal Giant Bone Arrow I",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Epic",
   "level": 36,
   "biomes": null,
@@ -21674,7 +21674,7 @@
  },
  {
   "name": "Eternal Giant Bone Arrow II",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Legendary",
   "level": 45,
   "biomes": null,
@@ -22443,7 +22443,7 @@
  },
  {
   "name": "Eternal Voltaic Arrow I",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Rare",
   "level": 20,
   "biomes": null,
@@ -22474,7 +22474,7 @@
  },
  {
   "name": "Eternal Voltaic Arrow II",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Epic",
   "level": 36,
   "biomes": null,
@@ -22505,7 +22505,7 @@
  },
  {
   "name": "Eternal Voltaic Arrow III",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Legendary",
   "level": 45,
   "biomes": null,
@@ -22740,7 +22740,7 @@
  },
  {
   "name": "Exceptional Ectoplasm Soup",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -22769,7 +22769,7 @@
  },
  {
   "name": "Exotic Fruit Salad",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -22806,7 +22806,7 @@
  },
  {
   "name": "Exploding Arrow IV",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 50,
   "biomes": null,
@@ -23056,7 +23056,7 @@
  },
  {
   "name": "Explosive Arrow I",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 11,
   "biomes": null,
@@ -23087,7 +23087,7 @@
  },
  {
   "name": "Explosive Arrow II",
-  "type": "Bow Ammunition",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -23118,7 +23118,7 @@
  },
  {
   "name": "Explosive Arrow III",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 44,
   "biomes": null,
@@ -23318,7 +23318,7 @@
  },
  {
   "name": "Extraordinary Ectoplasm Soup",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -23860,7 +23860,7 @@
  },
  {
   "name": "Fell Curse Cleansing Tonic",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -25840,7 +25840,7 @@
  },
  {
   "name": "Fish Tacos",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Epic",
   "level": null,
   "biomes": null,
@@ -26486,7 +26486,7 @@
  },
  {
   "name": "Flare Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 8,
   "biomes": null,
@@ -26717,7 +26717,7 @@
  },
  {
   "name": "Flint Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 5,
   "biomes": null,
@@ -27230,7 +27230,7 @@
  },
  {
   "name": "Fossilized Bone Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 16,
   "biomes": null,
@@ -28030,7 +28030,7 @@
  },
  {
   "name": "Giant Bone Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Rare",
   "level": 23,
   "biomes": null,
@@ -28057,7 +28057,7 @@
  },
  {
   "name": "Giant Bone Arrow II",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 27,
   "biomes": null,
@@ -28084,7 +28084,7 @@
  },
  {
   "name": "Giant Bone Arrow III",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 35,
   "biomes": null,
@@ -28111,7 +28111,7 @@
  },
  {
   "name": "Giant Bone Arrow IV",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 38,
   "biomes": null,
@@ -28581,7 +28581,7 @@
  },
  {
   "name": "Gleam Root Diving Light",
-  "type": "x",
+  "type": null,
   "rarity": "Epic",
   "level": null,
   "biomes": null,
@@ -30255,7 +30255,7 @@
  },
  {
   "name": "Golden Steel Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 42,
   "biomes": null,
@@ -30539,7 +30539,7 @@
  },
  {
   "name": "Grandleaf Cabbage",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -30549,7 +30549,7 @@
  },
  {
   "name": "Grandleaf Cabbage Rolls",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -31441,7 +31441,7 @@
  },
  {
   "name": "Greater Health Potion +",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -31470,7 +31470,7 @@
  },
  {
   "name": "Greater Mana Potion",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -31499,7 +31499,7 @@
  },
  {
   "name": "Greater Mana Potion +",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -31789,7 +31789,7 @@
  },
  {
   "name": "Grilled Cinderscale",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Epic",
   "level": null,
   "biomes": null,
@@ -32181,7 +32181,7 @@
  },
  {
   "name": "Grilled Specklefin",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Epic",
   "level": null,
   "biomes": null,
@@ -33659,7 +33659,7 @@
  },
  {
   "name": "Heal Cascade I",
-  "type": "Spells",
+  "type": "Spell",
   "rarity": "Common",
   "level": 5,
   "biomes": null,
@@ -33947,7 +33947,7 @@
  },
  {
   "name": "Health Potion +",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -34069,7 +34069,7 @@
  },
  {
   "name": "Hemotoxin Antidote",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -36636,7 +36636,7 @@
  },
  {
   "name": "Iron Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 22,
   "biomes": null,
@@ -43972,7 +43972,7 @@
  },
  {
   "name": "Meat and Azure Russula Skewer",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -44022,7 +44022,7 @@
  },
  {
   "name": "Meat and Forest Beet Skewer",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -44047,7 +44047,7 @@
  },
  {
   "name": "Meat and Hazelnut Skewer",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -45300,7 +45300,7 @@
  },
  {
   "name": "Metal Sheets",
-  "type": "Material",
+  "type": "Materials",
   "rarity": "Common",
   "level": 5,
   "biomes": null,
@@ -45705,7 +45705,7 @@
  },
  {
   "name": "Moonstone Arrow",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 47,
   "biomes": null,
@@ -46661,7 +46661,7 @@
  },
  {
   "name": "Obsidian Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 27,
   "biomes": null,
@@ -48495,7 +48495,7 @@
  },
  {
   "name": "Pearlbloom Nectar",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -49615,7 +49615,7 @@
  },
  {
   "name": "Plantain Salad with Aurora Beans",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -49726,7 +49726,7 @@
  },
  {
   "name": "Poisoned Bronze Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 18,
   "biomes": null,
@@ -49757,7 +49757,7 @@
  },
  {
   "name": "Poisoned Celestium Arrow",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 50,
   "biomes": null,
@@ -49788,7 +49788,7 @@
  },
  {
   "name": "Poisoned Copper Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 12,
   "biomes": null,
@@ -49815,7 +49815,7 @@
  },
  {
   "name": "Poisoned Golden Steel Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 42,
   "biomes": null,
@@ -49850,7 +49850,7 @@
  },
  {
   "name": "Poisoned Iron Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 22,
   "biomes": null,
@@ -49881,7 +49881,7 @@
  },
  {
   "name": "Poisoned Steel Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 32,
   "biomes": null,
@@ -50507,7 +50507,7 @@
  },
  {
   "name": "Prickle Pearl",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -50517,7 +50517,7 @@
  },
  {
   "name": "Prickle Pearl Tart",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -50878,7 +50878,7 @@
  },
  {
   "name": "Puke Potion",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -53221,7 +53221,7 @@
  },
  {
   "name": "Revitalizing Health Potion +",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -56264,7 +56264,7 @@
  },
  {
   "name": "Scrap Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 8,
   "biomes": null,
@@ -58601,7 +58601,7 @@
  },
  {
   "name": "Shroud Arrow I",
-  "type": "Bow Ammunition",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -58663,7 +58663,7 @@
  },
  {
   "name": "Shroud Arrow III",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 50,
   "biomes": null,
@@ -59123,7 +59123,7 @@
  },
  {
   "name": "Shroud Vessel's Greatsword",
-  "type": "Two-Handed Greatsword",
+  "type": "Two-handed Greatsword",
   "rarity": "Legendary",
   "level": null,
   "biomes": null,
@@ -63291,7 +63291,7 @@
  },
  {
   "name": "Specklefin",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Epic",
   "level": null,
   "biomes": null,
@@ -64449,7 +64449,7 @@
  },
  {
   "name": "Steel Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 32,
   "biomes": null,
@@ -65931,7 +65931,7 @@
  },
  {
   "name": "Stun Arrow",
-  "type": "Arrow",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -66377,7 +66377,7 @@
  },
  {
   "name": "Superior Health Potion +",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -66406,7 +66406,7 @@
  },
  {
   "name": "Superior Mana Potion",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -66439,7 +66439,7 @@
  },
  {
   "name": "Superior Mana Potion +",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Rare",
   "level": null,
   "biomes": null,
@@ -68168,7 +68168,7 @@
  },
  {
   "name": "Thyme",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Common",
   "level": null,
   "biomes": null,
@@ -68178,7 +68178,7 @@
  },
  {
   "name": "Thyme Tea",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Uncommon",
   "level": null,
   "biomes": null,
@@ -69683,7 +69683,7 @@
  },
  {
   "name": "Ultimate Bandage",
-  "type": "Consumable",
+  "type": "Consumables",
   "rarity": "Epic",
   "level": null,
   "biomes": null,
@@ -74536,7 +74536,7 @@
  },
  {
   "name": "Wooden Arrow",
-  "type": "Bow ammo",
+  "type": "Bow Ammo",
   "rarity": "Common",
   "level": 2,
   "biomes": null,

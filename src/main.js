@@ -82,13 +82,30 @@ Alpine.data('crafting', () => ({
   },
 
   get groups() {
+    // Search results stay ranked in one list, which can be cut anywhere.
+    if (this.query.trim()) {
+      const items = this.results.slice(0, this.limit)
+      return items.length ? [{ name: 'Results', items }] : []
+    }
     const groups = new Map()
-    for (const item of this.results.slice(0, this.limit)) {
-      const key = this.query.trim() ? 'Results' : item.type || 'Other'
+    for (const item of this.results) {
+      const key = item.type || 'Other'
       if (!groups.has(key)) groups.set(key, [])
       groups.get(key).push(item)
     }
-    return [...groups].sort(([a], [b]) => a.localeCompare(b)).map(([name, items]) => ({ name, items }))
+    // Browsing reveals whole groups, so a type is never shown part-filled.
+    const shown = []
+    let count = 0
+    for (const [name, items] of [...groups].sort(([a], [b]) => a.localeCompare(b))) {
+      if (shown.length && count + items.length > this.limit) break
+      shown.push({ name, items })
+      count += items.length
+    }
+    return shown
+  },
+
+  get shownCount() {
+    return this.groups.reduce((sum, group) => sum + group.items.length, 0)
   },
 
   get recipe() {
