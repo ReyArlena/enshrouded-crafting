@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enshrouded Crafting</title>
+  <meta name="description" content="Search Enshrouded items for their recipe, crafter and workstation.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M8 1l7 7-7 7-7-7z' fill='%23e8c468'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;0,800;1,500&family=Alegreya+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+<div x-data="crafting" x-cloak class="mx-auto flex min-h-dvh max-w-[1500px] flex-col px-4 lg:px-8">
+  <header class="pt-5">
+    <div class="flex flex-wrap items-center gap-x-6 gap-y-3 pb-4">
+      <h1 class="font-serif text-2xl font-extrabold text-parchment">Enshrouded Crafting</h1>
+      <label class="relative min-w-60 flex-1">
+        <span class="sr-only">Search items</span>
+        <input type="search" x-model.debounce.120ms="query" @input="limit = 150" placeholder="Search items..." class="search">
+      </label>
+      <select x-model="station" @change="limit = 150" class="control" aria-label="Filter by workstation">
+        <option value="">All workstations</option>
+        <template x-for="s in stations" :key="s"><option :value="s" x-text="s"></option></template>
+      </select>
+      <label class="flex cursor-pointer items-center gap-2 font-caps text-sm text-mist">
+        <input type="checkbox" x-model="includeRaw" class="accent-gold"> Raw materials
+      </label>
+    </div>
+    <nav class="tabs" aria-label="Filter by crafter">
+      <template x-for="c in crafters" :key="c">
+        <button class="tab" :class="crafter === c && 'tab-active'" @click="crafter = c; limit = 150" x-text="c"></button>
+      </template>
+    </nav>
+  </header>
+
+  <main class="grid flex-1 gap-6 py-5 lg:grid-cols-[minmax(0,1fr)_minmax(420px,520px)]">
+    <section aria-label="Items">
+      <p x-show="!items.length" class="py-16 text-center font-serif text-mist" x-text="error || 'Loading recipes...'"></p>
+      <p x-show="items.length" class="mb-3 font-caps text-sm text-mist" x-text="`${results.length} items`"></p>
+      <p x-show="items.length && !results.length" class="py-16 text-center font-serif text-mist">Nothing found. Try another name or clear the filters.</p>
+      <template x-for="group in groups" :key="group.name">
+        <div class="mb-5">
+          <h2 class="mb-2 font-caps text-sm tracking-wider text-mist" x-text="group.name"></h2>
+          <div class="grid grid-cols-[repeat(auto-fill,minmax(84px,1fr))] gap-1.5">
+            <template x-for="item in group.items" :key="item.name">
+              <button class="tile" :class="selected?.name === item.name && 'tile-active'" :title="item.name" @click="select(item.name)">
+                <img x-show="item.image" :src="imageUrl(item)" :alt="item.name" loading="lazy" class="size-full object-contain p-1.5">
+                <span x-show="!item.image" class="p-1 text-center text-xs text-mist" x-text="item.name"></span>
+              </button>
+            </template>
+          </div>
+        </div>
+      </template>
+      <button x-show="results.length > limit" class="control mx-auto block" @click="limit += 150">Show more</button>
+    </section>
+
+    <aside x-show="selected" class="detail-wrap" @keydown.escape.window="selected = null">
+      <template x-if="selected">
+        <article class="panel">
+          <button class="close lg:hidden" @click="selected = null" aria-label="Close">&times;</button>
+          <div class="flex items-start justify-between gap-4">
+            <div class="min-w-0">
+              <h2 class="font-serif text-3xl leading-tight font-extrabold text-parchment"><span x-text="selected.name"></span> <a class="wiki-link" :href="wikiUrl(selected.name)" target="_blank" rel="noopener" :aria-label="`${selected.name} on the wiki`" title="View on wiki">&#8599;</a></h2>
+              <p class="mt-1 font-serif text-lg text-rust" x-text="selected.type"></p>
+              <p x-show="selected.level" class="mt-5 font-caps text-sm text-mist">Level <span class="font-serif text-3xl text-parchment" x-text="selected.level"></span></p>
+              <p class="font-caps text-sm font-bold tracking-wider" :class="rarityClass(selected)" x-text="selected.rarity"></p>
+            </div>
+            <img x-show="selected.image" :src="imageUrl(selected)" alt="" class="size-28 shrink-0 object-contain drop-shadow-[0_6px_14px_#0009]">
+          </div>
+          <div class="gold-rule mt-3"></div>
+
+          <div class="grid grid-cols-3 text-center font-caps">
+            <template x-for="t in ['Recipe', 'Tree', 'Info']" :key="t">
+              <button class="panel-tab" :class="tab === t && 'panel-tab-active'" @click="tab = t" x-text="t"></button>
+            </template>
+          </div>
+
+          <div x-show="tab === 'Recipe'">
+            <p x-show="!recipe" class="py-6 font-serif text-mist">No crafting recipe. This item is gathered, looted or bought.</p>
+            <template x-if="recipe">
+              <div>
+                <div x-show="selected.recipes.length > 1" class="mt-4 flex flex-wrap gap-1.5">
+                  <template x-for="(r, i) in selected.recipes" :key="i">
+                    <button class="chip" :class="recipeIndex === i && 'chip-active'" @click="recipeIndex = i" x-text="r.stations[0] || r.crafter || `Recipe ${i + 1}`"></button>
+                  </template>
+                </div>
+                <h3 class="section-title">Requirements</h3>
+                <div class="space-y-1">
+                  <template x-if="recipe.crafter">
+                    <div class="row">
+                      <img :src="iconFor(recipe.crafter)" alt="" class="row-icon" x-show="iconFor(recipe.crafter)">
+                      <div>
+                        <button class="row-name" @click="crafter = recipe.crafter" x-text="recipe.crafter"></button> <a class="wiki-link" :href="wikiUrl(recipe.crafter)" target="_blank" rel="noopener" :aria-label="`${recipe.crafter} on the wiki`" title="View on wiki">&#8599;</a>
+                        <template x-for="req in recipe.requires || []" :key="req"><p class="text-good">&check; <span x-text="req"></span></p></template>
+                      </div>
+                    </div>
+                  </template>
+                  <template x-for="s in recipe.stations" :key="s">
+                    <div class="row">
+                      <img :src="iconFor(s)" alt="" class="row-icon" x-show="iconFor(s)">
+                      <div>
+                        <button class="row-name" @click="station = s" x-text="s"></button> <a class="wiki-link" :href="wikiUrl(s)" target="_blank" rel="noopener" :aria-label="`${s} on the wiki`" title="View on wiki">&#8599;</a>
+                        <p x-show="recipe.crafter" class="font-serif text-sm text-mist italic" x-text="recipe.crafter"></p>
+                      </div>
+                    </div>
+                  </template>
+                  <p x-show="!recipe.crafter && !recipe.stations.length" class="font-serif text-mist">Not listed on the wiki.</p>
+                </div>
+
+                <div class="mt-5 flex items-end justify-between">
+                  <h3 class="section-title !mt-0 !mb-0">Resources</h3>
+                  <label class="flex items-center gap-2 font-caps text-sm text-mist">Amount
+                    <input type="number" min="1" x-model.number="amount" class="w-20 rounded border border-gold/40 bg-night/70 px-2 py-0.5 text-right font-serif text-parchment">
+                  </label>
+                </div>
+                <div class="mt-2 space-y-1">
+                  <template x-for="ing in ingredients" :key="ing.name">
+                    <div class="row hover:bg-white/5">
+                      <button class="flex min-w-0 flex-1 items-center gap-3 text-left" @click="select(ing.name)">
+                        <img :src="iconFor(ing.name)" alt="" class="row-icon" x-show="iconFor(ing.name)">
+                        <span class="min-w-0 flex-1">
+                          <span class="row-name block" x-text="ing.name"></span>
+                          <span class="block font-serif text-sm text-mist italic" x-text="sourceOf(ing.name)"></span>
+                        </span>
+                        <span class="font-serif text-xl text-good" x-text="ing.total.toLocaleString()"></span>
+                      </button>
+                      <a class="wiki-link" :href="wikiUrl(ing.name)" target="_blank" rel="noopener" :aria-label="`${ing.name} on the wiki`" title="View on wiki">&#8599;</a>
+                    </div>
+                  </template>
+                  <p x-show="!ingredients.length" class="font-serif text-mist">Ingredients not listed on the wiki.</p>
+                </div>
+                <p class="mt-4 font-serif text-sm text-mist">
+                  Makes <span x-text="recipe.quantity"></span> per craft<span x-show="recipe.time"> - <span x-text="recipe.time"></span></span>
+                </p>
+              </div>
+            </template>
+          </div>
+
+          <div x-show="tab === 'Tree'">
+            <p x-show="!tree.length" class="py-6 font-serif text-mist">Nothing to break down.</p>
+            <div x-show="tree.length" class="mt-4 flex items-center justify-between">
+              <h3 class="section-title !m-0">Full crafting tree</h3>
+              <label class="flex items-center gap-2 font-caps text-sm text-mist">Amount
+                <input type="number" min="1" x-model.number="amount" class="w-20 rounded border border-gold/40 bg-night/70 px-2 py-0.5 text-right font-serif text-parchment">
+              </label>
+            </div>
+            <div class="mt-2 space-y-0.5">
+              <template x-for="(node, i) in tree" :key="i">
+                <div class="flex items-center gap-2 rounded pr-1 hover:bg-white/5" :style="`padding-left:${node.depth * 18}px`">
+                  <button class="flex min-w-0 flex-1 items-center gap-2 py-0.5 text-left" @click="select(node.name)">
+                    <img :src="iconFor(node.name)" alt="" class="size-7 object-contain" x-show="iconFor(node.name)">
+                    <span class="min-w-0 flex-1 truncate font-serif" :class="node.raw ? 'text-good' : 'text-parchment'" x-text="node.name"></span>
+                    <span class="font-serif text-mist" x-text="node.total.toLocaleString()"></span>
+                  </button>
+                  <a class="wiki-link" :href="wikiUrl(node.name)" target="_blank" rel="noopener" :aria-label="`${node.name} on the wiki`" title="View on wiki">&#8599;</a>
+                </div>
+              </template>
+            </div>
+            <template x-if="rawTotals.length">
+              <div>
+                <h3 class="section-title">Raw materials total</h3>
+                <template x-for="r in rawTotals" :key="r.name">
+                  <div class="flex justify-between font-serif"><span><span class="text-good" x-text="r.name"></span> <a class="wiki-link" :href="wikiUrl(r.name)" target="_blank" rel="noopener" :aria-label="`${r.name} on the wiki`" title="View on wiki">&#8599;</a></span><span class="text-parchment" x-text="r.total.toLocaleString()"></span></div>
+                </template>
+                <p class="mt-3 text-sm text-mist">Uses the first listed recipe for each ingredient.</p>
+              </div>
+            </template>
+          </div>
+
+          <div x-show="tab === 'Info'">
+            <p class="mt-4 font-serif text-lg text-parchment" x-text="selected.description || 'No description on the wiki.'"></p>
+            <p x-show="selected.biomes" class="mt-3 font-serif text-mist">Found in <span x-text="selected.biomes"></span></p>
+            <template x-if="usedIn.length">
+              <div>
+                <h3 class="section-title">Used in <span x-text="usedIn.length"></span> recipes</h3>
+                <div class="flex flex-wrap gap-1.5">
+                  <template x-for="name in usedIn.slice(0, 60)" :key="name"><button class="chip" @click="select(name)" x-text="name"></button></template>
+                </div>
+              </div>
+            </template>
+            <a class="mt-5 inline-block font-caps text-gold underline" :href="wikiUrl(selected.name)" target="_blank" rel="noopener">View on wiki</a>
+          </div>
+        </article>
+      </template>
+    </aside>
+    <aside x-show="!selected && items.length" class="hidden lg:block">
+      <div class="panel text-center font-serif text-mist">Select an item to see its recipe.</div>
+    </aside>
+  </main>
+
+  <footer class="border-t border-gold/25 py-5 text-center text-sm text-mist">
+    <p>Recipe data and item images from the <a href="https://enshrouded.wiki.gg/" target="_blank" rel="noopener">Enshrouded Wiki</a> and its contributors. Wiki text is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    <p class="mt-1">Enshrouded is a trademark of Keen Games. This fan project is not affiliated with Keen Games or wiki.gg. Built by <a href="https://github.com/ReyArlena/enshrouded-crafting" target="_blank" rel="noopener">ReyArlena</a>.</p>
+  </footer>
+</div>
+</body>
+</html>
