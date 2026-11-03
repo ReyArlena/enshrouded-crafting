@@ -1,0 +1,6 @@
+{
+  "Eternal Ice Totem II": {
+    "addIngredients": { "Water": 10 },
+    "requires": ["Sheltered Bed"]
+  }
+}
