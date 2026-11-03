@@ -37,12 +37,30 @@ Alpine.data('crafting', () => ({
       this.crafters = [ALL, ...new Set(recipes.map((r) => r.crafter).filter(Boolean).sort())]
       this.stations = [...new Set(recipes.flatMap((r) => r.stations))].sort()
       this.items = items
+      this.readSearch()
       this.readHash()
+      this.$watch('query', () => this.writeSearch())
       window.addEventListener('hashchange', () => this.readHash())
+      window.addEventListener('popstate', () => this.readSearch())
     } catch (e) {
       this.error = 'Could not load recipes. Please refresh the page.'
       console.error(e)
     }
+  },
+
+  readSearch() {
+    const search = new URLSearchParams(location.search).get('search') ?? ''
+    // Keeps in-progress typing, such as a trailing space, when the term is unchanged.
+    if (search !== this.query.trim()) this.query = search
+  },
+
+  writeSearch() {
+    const url = new URL(location.href)
+    const search = this.query.trim()
+    if (search) url.searchParams.set('search', search)
+    else url.searchParams.delete('search')
+    // Replaces rather than pushes, so each keystroke is not a Back step.
+    history.replaceState(history.state, '', url)
   },
 
   readHash() {
