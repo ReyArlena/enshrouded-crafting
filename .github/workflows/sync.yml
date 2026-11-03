@@ -1,0 +1,23 @@
+name: Sync recipes
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run sync
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: sync/recipes
+          delete-branch: true
+          commit-message: Sync recipes from wiki
+          title: Sync recipes from wiki
+          body: Weekly recipe sync. Review the data diff before merging; merging deploys the site.
