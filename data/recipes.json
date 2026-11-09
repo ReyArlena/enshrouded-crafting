@@ -454,7 +454,7 @@
       "quantity": 2
      },
      {
-      "name": "Mycelium (Material)",
+      "name": "Mycelium",
       "quantity": 15
      }
     ]
@@ -2828,8 +2828,8 @@
  {
   "name": "Archmage Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These boots were made by the most talented cobblers and are as expensive as they come.",
   "image": "thumb/Archmage_Boots.png/128px-Archmage_Boots.png?25644d",
@@ -2863,8 +2863,8 @@
  {
   "name": "Archmage Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A truly spirited garb for magicians and casters. The fabric was laboriously dyed with deep cobalt pigment derived from imported nightblooms.",
   "image": "thumb/Archmage_Chest.png/128px-Archmage_Chest.png?e728e3",
@@ -2902,8 +2902,8 @@
  {
   "name": "Archmage Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Gloves which were worn by the most talented, renowned and successful mages of the kingdom.",
   "image": "thumb/Archmage_Gloves.png/128px-Archmage_Gloves.png?f43022",
@@ -2937,8 +2937,8 @@
  {
   "name": "Archmage Hat",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This magical hat was decorated with fine metal spines that reach out to the stars. It only graces the brightest minds in Embervale!",
   "image": "thumb/Archmage_Hat.png/128px-Archmage_Hat.png?3975f6",
@@ -2972,8 +2972,8 @@
  {
   "name": "Archmage Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The pants are elegantly held together with cobalt stitching and thread. The color represents sophistication and the superiority of the mind.",
   "image": "thumb/Archmage_Trousers.png/128px-Archmage_Trousers.png?23cf2d",
@@ -3083,7 +3083,7 @@
   "rarity": "Cosmetic",
   "level": null,
   "biomes": null,
-  "description": "A helmet that hides the wearer's face below a sturdy sheet metal mask. The attached headpiece adds some height and heft, resembling the dawning sun. and the beginning of a new era of progress.",
+  "description": "A helmet that hides the wearer's face below a sturdy sheet metal mask. The attached headpiece adds some height and heft, resembling the dawning sun - and the beginning of a new era of progress.",
   "image": "thumb/Artificer%27s_Helmet.png/128px-Artificer%27s_Helmet.png?276bed",
   "recipes": [
    {
@@ -3126,8 +3126,8 @@
  {
   "name": "Ashwind Strider Boots",
   "type": "Foot Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Pale boots that have been adorned by multiple sets of heavy bangles, chaining the wearer to the molten grounds below the flying isles.",
   "image": "thumb/Ashwind_Strider_Boots.png/128px-Ashwind_Strider_Boots.png?bf8c5c",
@@ -3139,19 +3139,19 @@
     "quantity": 1,
     "ingredients": [
      {
-      "name": "Sparkling Dust",
+      "name": "Diamond Dust",
       "quantity": 1
      },
      {
-      "name": "Celestium Bars",
-      "quantity": 1
+      "name": "Ember Carapace",
+      "quantity": 4
      },
      {
-      "name": "Active Mycelium",
-      "quantity": 10
+      "name": "Magma Gel",
+      "quantity": 5
      },
      {
-      "name": "Diamond",
+      "name": "Shroud Relic",
       "quantity": 1
      }
     ]
@@ -3161,8 +3161,8 @@
  {
   "name": "Ashwind Strider Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A layered gambeson that's wrapped in chains and free-flowing silk. Its dark color scheme makes it easy to walk the path of ash and dust unseen.",
   "image": "thumb/Ashwind_Strider_Chest.png/128px-Ashwind_Strider_Chest.png?ff0ffd",
@@ -3175,19 +3175,19 @@
     "ingredients": [
      {
       "name": "Gold Bars",
-      "quantity": 2
-     },
-     {
-      "name": "Celestium Bars",
       "quantity": 1
      },
      {
-      "name": "Red Fabric",
-      "quantity": 4
+      "name": "Celestium Bars",
+      "quantity": 2
      },
      {
       "name": "Archaic Infusion",
       "quantity": 1
+     },
+     {
+      "name": "Blue Fabric",
+      "quantity": 2
      },
      {
       "name": "Archaic Core",
@@ -3200,8 +3200,8 @@
  {
   "name": "Ashwind Strider Gloves",
   "type": "Arm Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A pair of asymmetrical gloves. One leaves the fingertips bare, allowing you to check the direction of the wind.",
   "image": "thumb/Ashwind_Strider_Gloves.png/128px-Ashwind_Strider_Gloves.png?62f815",
@@ -3213,20 +3213,20 @@
     "quantity": 1,
     "ingredients": [
      {
-      "name": "Magma Gel",
-      "quantity": 5
-     },
-     {
-      "name": "Ember Carapace",
+      "name": "Moonstone",
       "quantity": 4
      },
      {
       "name": "Celestium Bars",
-      "quantity": 1
+      "quantity": 2
      },
      {
-      "name": "Sulfur",
-      "quantity": 10
+      "name": "Archaic Shards",
+      "quantity": 5
+     },
+     {
+      "name": "Diamond",
+      "quantity": 2
      }
     ]
    }
@@ -3235,8 +3235,8 @@
  {
   "name": "Ashwind Strider Hood",
   "type": "Head Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A hood and mask that shield the face below from smoke.",
   "image": "thumb/Ashwind_Strider_Hood.png/128px-Ashwind_Strider_Hood.png?a0692e",
@@ -3248,20 +3248,20 @@
     "quantity": 1,
     "ingredients": [
      {
-      "name": "Bursting Fell Heart",
+      "name": "Sparkling Dust",
       "quantity": 1
      },
      {
-      "name": "Sulfur",
-      "quantity": 5
-     },
-     {
-      "name": "Moonstone",
-      "quantity": 5
-     },
-     {
-      "name": "Gold Bars",
+      "name": "Blue Fabric",
       "quantity": 1
+     },
+     {
+      "name": "Magma Gel",
+      "quantity": 5
+     },
+     {
+      "name": "Ember Carapace",
+      "quantity": 4
      }
     ]
    }
@@ -3270,8 +3270,8 @@
  {
   "name": "Ashwind Strider Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Airy, slightly billowing pants that allow the wearer to feel the heat of the wind.",
   "image": "thumb/Ashwind_Strider_Pants.png/128px-Ashwind_Strider_Pants.png?efd907",
@@ -3283,24 +3283,24 @@
     "quantity": 1,
     "ingredients": [
      {
+      "name": "Active Mycelium",
+      "quantity": 10
+     },
+     {
       "name": "Archaic Shards",
       "quantity": 5
      },
      {
-      "name": "Fabric",
+      "name": "Celestium Bars",
+      "quantity": 2
+     },
+     {
+      "name": "Blue Fabric",
       "quantity": 4
      },
      {
-      "name": "Ember Carapace",
+      "name": "Sulfur",
       "quantity": 5
-     },
-     {
-      "name": "Magma Gel",
-      "quantity": 5
-     },
-     {
-      "name": "Diamond",
-      "quantity": 1
      }
     ]
    }
@@ -3309,8 +3309,8 @@
  {
   "name": "Assassin Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Your steps will be quick and quiet, and your strikes will be deadly.",
   "image": "thumb/Assassin_Boots.png/128px-Assassin_Boots.png?1cd73b",
@@ -3344,8 +3344,8 @@
  {
   "name": "Assassin Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A refined chest piece that lets you fade into the dark and strike from the shadows.",
   "image": "thumb/Assassin_Chest.png/128px-Assassin_Chest.png?771857",
@@ -3383,8 +3383,8 @@
  {
   "name": "Assassin Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Robust gloves that hide the wearer's palms and true intentions.",
   "image": "thumb/Assassin_Gloves.png/128px-Assassin_Gloves.png?599532",
@@ -3418,8 +3418,8 @@
  {
   "name": "Assassin Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A special piece of cloth was added to this assassin hood to hide the wearer's face and their most likely daunting smile.",
   "image": "thumb/Assassin_Hood.png/128px-Assassin_Hood.png?dffde1",
@@ -3453,8 +3453,8 @@
  {
   "name": "Assassin Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A plain pair of pants. Under different circumstances, they would allow the wearer to easily blend into any crowd.",
   "image": "thumb/Assassin_Trousers.png/128px-Assassin_Trousers.png?2fe42b",
@@ -6442,8 +6442,8 @@
  {
   "name": "Blackguard Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "A warrior's boots that used to brandish a golden sheen. They've dulled due to the fungal overgrowth. Offers extended protection against the Shroud.",
   "image": "thumb/Blackguard_Boots.png/128px-Blackguard_Boots.png?53fbaa",
@@ -6479,8 +6479,8 @@
  {
   "name": "Blackguard Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "A metal cuirass with subtle embossing on it. The pattern is reminiscent of golden tangled vines, now sprouting with delicate mycelium. Offers extended protection against the Shroud.",
   "image": "thumb/Blackguard_Chest.png/128px-Blackguard_Chest.png?774522",
@@ -6520,8 +6520,8 @@
  {
   "name": "Blackguard Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "Reinforced gloves with makeshift chitin plating.",
   "image": "thumb/Blackguard_Gloves.png/128px-Blackguard_Gloves.png?921695",
@@ -6557,8 +6557,8 @@
  {
   "name": "Blackguard Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "A helmet made from petrified insectoid critter legs assembled to grasp at the wearer's face like claws. Offers extended protection against the Shroud.",
   "image": "thumb/Blackguard_Helmet.png/128px-Blackguard_Helmet.png?e2b59c",
@@ -6594,8 +6594,8 @@
  {
   "name": "Blackguard Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "A pair of rotting pants, held together by stabilizing chitin shells. Offers extended protection against the Shroud.",
   "image": "thumb/Blackguard_Trousers.png/128px-Blackguard_Trousers.png?8dabf7",
@@ -6877,6 +6877,98 @@
   ]
  },
  {
+  "name": "Blacksmith Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These boots will still keep their shape even if you drop a hammer on them. Or tongs. Or an entire anvil. How handy!",
+  "image": "thumb/Blacksmith_Boots.png/128px-Blacksmith_Boots.png?677506",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith Garb",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Just enough to protect the wearer from sparks.",
+  "image": "thumb/Blacksmith_Garb.png/128px-Blacksmith_Garb.png?cd7bbe",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A simple head-covering to soak up some of that pesky sweat. Keeps your precious ears away from hot swinging irons!",
+  "image": "thumb/Blacksmith_Hat.png/128px-Blacksmith_Hat.png?39f51e",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blacksmith Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These pants are smeared with soot.",
+  "image": "thumb/Blacksmith_Pants.png/128px-Blacksmith_Pants.png?354c5f",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Blast Furnace",
   "type": "Furniture",
   "rarity": "Rare",
@@ -7054,6 +7146,308 @@
      },
      {
       "name": "Enshrouded Oil",
+      "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blood Rose Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Click-clack, click-clack - You hear the sound of her raised heel from a mile away, piercing the ground with unyielding staccato. As her steps quicken, so does your breath. Do not get caught in her path.",
+  "image": "thumb/Blood_Rose_Boots.png/128px-Blood_Rose_Boots.png?87829b",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blood Rose Chestplate",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A laced-up metal bodice that births a crinoline-esque cage. You shan't let these shackles fool you. No band, and no blood can manacle the wrath of the Blood Rose.",
+  "image": "thumb/Blood_Rose_Chestplate.png/128px-Blood_Rose_Chestplate.png?909955",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blood Rose Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Sharp claws and a sharper tongue that refuses to be silenced - such are both sword and shield of the Blood Rose.",
+  "image": "thumb/Blood_Rose_Gloves.png/128px-Blood_Rose_Gloves.png?1df870",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blood Rose Mail Coif",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A chainmail coif, crowned with a wreath of roses and thorns. Beauty and pain, pleasure and despair - they all coalesce in her halo.",
+  "image": "thumb/Blood_Rose_Mail_Coif.png/128px-Blood_Rose_Mail_Coif.png?b0c6cf",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Blood Rose Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Full metal armor with flourishing lines, swinging around the leg like ensnaring vines. Their thorns may prick, tear, and break her, but a wounded deer leaps highest , so they say.",
+  "image": "thumb/Blood_Rose_Pants.png/128px-Blood_Rose_Pants.png?389cfd",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Bloodfeather Chest",
+  "type": "Upper Body Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "With this chest piece, you can cut through the woods with ease, remaining undetected as you prepare your next strike.",
+  "image": "thumb/Bloodfeather_Chest.png/128px-Bloodfeather_Chest.png?b207ad",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Feather",
+      "quantity": 4
+     },
+     {
+      "name": "Capybara Bristles",
+      "quantity": 4
+     },
+     {
+      "name": "Water Reptile Leather",
+      "quantity": 5
+     },
+     {
+      "name": "Orange Fabric",
+      "quantity": 2
+     },
+     {
+      "name": "Corrupted Boar Tusk",
+      "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Bloodfeather Gloves",
+  "type": "Arm Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "Adorned with a crystal and gold trim, these gloves give you a firm grip on your daggers - ideal for strikes from behind.",
+  "image": "thumb/Bloodfeather_Gloves.png/128px-Bloodfeather_Gloves.png?e709e5",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Fish Bones",
+      "quantity": 2
+     },
+     {
+      "name": "Capybara Bristles",
+      "quantity": 2
+     },
+     {
+      "name": "Green Vitriol Dust",
+      "quantity": 10
+     },
+     {
+      "name": "Water Reptile Leather",
+      "quantity": 2
+     },
+     {
+      "name": "Cursed Shroud Sack",
+      "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Bloodfeather Helmet",
+  "type": "Head Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "This head armor combines a mask, cloth, and horns. For most foes, it will be the last thing they see when you catch them by surprise.",
+  "image": "thumb/Bloodfeather_Helmet.png/128px-Bloodfeather_Helmet.png?706b2a",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Capybara Bristles",
+      "quantity": 1
+     },
+     {
+      "name": "Gold Bars",
+      "quantity": 1
+     },
+     {
+      "name": "Fish Teeth",
+      "quantity": 2
+     },
+     {
+      "name": "Chitin Powder",
+      "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Bloodfeather Pants",
+  "type": "Lower Body Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "Designed for stealth, these neutral pants make sneaking through the thicket effortless.",
+  "image": "thumb/Bloodfeather_Pants.png/128px-Bloodfeather_Pants.png?fb7efc",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Green Vitriol Dust",
+      "quantity": 4
+     },
+     {
+      "name": "Water Reptile Leather",
+      "quantity": 3
+     },
+     {
+      "name": "Capybara Bristles",
+      "quantity": 4
+     },
+     {
+      "name": "Pink Mushroom Meat",
+      "quantity": 50
+     },
+     {
+      "name": "Bursting Fell Heart",
+      "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Bloodfeather Shoes",
+  "type": "Foot Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "With these shoes, maintain your stance and recover before launching your next attack.",
+  "image": "thumb/Bloodfeather_Shoes.png/128px-Bloodfeather_Shoes.png?a5a9e9",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Capybara Bristles",
+      "quantity": 2
+     },
+     {
+      "name": "Pink Mushroom Meat",
+      "quantity": 50
+     },
+     {
+      "name": "Water Reptile Leather",
+      "quantity": 5
+     },
+     {
+      "name": "Shroud Sludge",
       "quantity": 1
      }
     ]
@@ -8751,7 +9145,7 @@
  {
   "name": "Brazen Bull Boots",
   "type": "Foot Armor",
-  "rarity": "Rare",
+  "rarity": "Common - Legendary",
   "level": null,
   "biomes": null,
   "description": "No one will get through you whilst you stand your ground in these regal boots.",
@@ -8786,7 +9180,7 @@
  {
   "name": "Brazen Bull Chest",
   "type": "Upper Body Armor",
-  "rarity": "Rare",
+  "rarity": "Common - Legendary",
   "level": null,
   "biomes": null,
   "description": "If anyone dares to engage you in close combat, they'll get a taste of your wildly thrashing spiked shoulder pads. Your defense will be impenetrable, and the cuts you'll leave will be deep.",
@@ -8825,7 +9219,7 @@
  {
   "name": "Brazen Bull Gloves",
   "type": "Arm Armor",
-  "rarity": "Rare",
+  "rarity": "Common - Legendary",
   "level": null,
   "biomes": null,
   "description": "Catching a backhand from these spiked gloves will bring even the most vigilant attacker to their knees.",
@@ -8860,7 +9254,7 @@
  {
   "name": "Brazen Bull Helmet",
   "type": "Head Armor",
-  "rarity": "Rare",
+  "rarity": "Common - Legendary",
   "level": null,
   "biomes": null,
   "description": "A heavy helmet, adorned with the imposing horns of a bull and a tall, far-reaching crest. The faceplate only leaves room for the eyes, letting the wearer's red-hot anger radiate outwards.",
@@ -8932,7 +9326,7 @@
  {
   "name": "Brazen Bull Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Rare",
+  "rarity": "Common - Legendary",
   "level": null,
   "biomes": null,
   "description": "These leg guards protect the wearer's sides from incoming strikes.",
@@ -10829,6 +11223,29 @@
      {
       "name": "Wax",
       "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Captain's Coat",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "This impressive coat is regal, lived-in, and vaguely... salty. It makes you feel as though you should be steering a ship to safety amidst a thundering storm!",
+  "image": "thumb/Captain%27s_Coat.png/128px-Captain%27s_Coat.png?15a07d",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
      }
     ]
    }
@@ -14497,8 +14914,8 @@
  {
   "name": "Crestflame Boots",
   "type": "Foot Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Tall boots that are held by leather straps on the inside, and carry a thick layer of additional sheeting towards the outside. They end in kneegards which press upwards further in a radial shape.",
   "image": "thumb/Crestflame_Boots.png/128px-Crestflame_Boots.png?6372ba",
@@ -14532,11 +14949,11 @@
  {
   "name": "Crestflame Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A belted chest armor piece that's marked by thick, linear grooves and ridges that stretch towards the sun. It is adorned with violet trim that elevates the construction and creates a pleasing color palette reminiscent of the hues of the Mother Flame.",
-  "image": "thumb/Crestflame_Chest.png/128px-Crestflame_Chest.png?32453b",
+  "image": "thumb/Crestflame_Chest.png/128px-Crestflame_Chest.png?f040b6",
   "recipes": [
    {
     "crafter": "Blacksmith",
@@ -14571,8 +14988,8 @@
  {
   "name": "Crestflame Gloves",
   "type": "Arm Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Heavy gloves, held together by pairs of belts and buckles. With these, you can grab whoever dares to threaten the Mother Flame straight by their wretched throat.",
   "image": "thumb/Crestflame_Gloves.png/128px-Crestflame_Gloves.png?3d693c",
@@ -14606,8 +15023,8 @@
  {
   "name": "Crestflame Helmet",
   "type": "Head Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Vibrant plumes emerge from the crest of this helmet and meander forth like smoke. They remind one of the Mother Flame's light as it fades against the dusk.",
   "image": "thumb/Crestflame_Helmet.png/128px-Crestflame_Helmet.png?4c1c78",
@@ -14641,8 +15058,8 @@
  {
   "name": "Crestflame Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These are trousers that were created using superior ancient forging techniques. They bear the same mystical radial lines favoured by the ancient masters.",
   "image": "thumb/Crestflame_Pants.png/128px-Crestflame_Pants.png?81fe1e",
@@ -16249,8 +16666,8 @@
  {
   "name": "Cutthroat Boots",
   "type": "Foot Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 10,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The reinforced soles allow the wearer to skulk through the overgrowth undisturbed, and to reach vantage points quickly. Perfect for an ambush!",
   "image": "thumb/Cutthroat_Boots.png/128px-Cutthroat_Boots.png?c0762a",
@@ -16282,10 +16699,49 @@
   ]
  },
  {
+  "name": "Cutthroat Chest",
+  "type": "Upper Body Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "A warm, padded vest. Ideal for enduring cold nights while awaiting the time to strike.",
+  "image": "thumb/Cutthroat_Chest.png/128px-Cutthroat_Chest.png?67391d",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Copper Bars",
+      "quantity": 4
+     },
+     {
+      "name": "Reptile Leather",
+      "quantity": 1
+     },
+     {
+      "name": "Amber",
+      "quantity": 4
+     },
+     {
+      "name": "Dried Fur",
+      "quantity": 1
+     },
+     {
+      "name": "Giant Critter Scales",
+      "quantity": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Cutthroat Gloves",
   "type": "Arm Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 10,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These Cutthroat Gloves have been refined to be snug and effective.",
   "image": "thumb/Cutthroat_Gloves.png/128px-Cutthroat_Gloves.png?4374d2",
@@ -16311,6 +16767,80 @@
      {
       "name": "Reptile Leather",
       "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Cutthroat Helmet",
+  "type": "Head Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "A darkened hood which lets you blend into the woodland scenery more easily. A piece of red cloth covers the mouth, making you feel like a bandit.",
+  "image": "thumb/Cutthroat_Helmet.png/128px-Cutthroat_Helmet.png?4c25e8",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Indigo Plant",
+      "quantity": 4
+     },
+     {
+      "name": "Bug Dust",
+      "quantity": 1
+     },
+     {
+      "name": "Dried Fur",
+      "quantity": 1
+     },
+     {
+      "name": "Shroud Mushroom",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Cutthroat Trousers",
+  "type": "Lower Body Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "The added leather grants superior protection from jagged rocks, unruly tree bark, and incoming arrows.",
+  "image": "thumb/Cutthroat_Trousers.png/128px-Cutthroat_Trousers.png?77f077",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Linen",
+      "quantity": 2
+     },
+     {
+      "name": "Reptile Leather",
+      "quantity": 1
+     },
+     {
+      "name": "Bones",
+      "quantity": 4
+     },
+     {
+      "name": "Goo",
+      "quantity": 2
+     },
+     {
+      "name": "Corrupted Boar Tusk",
+      "quantity": 2
      }
     ]
    }
@@ -16747,7 +17277,7 @@
  {
   "name": "Date",
   "type": "Consumables",
-  "rarity": null,
+  "rarity": "Common",
   "level": null,
   "biomes": null,
   "description": "Sweet, sticky fruits of the date palm. Travelers swear by them for a quick recovery on the road.",
@@ -16885,8 +17415,8 @@
  {
   "name": "Deadeye Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These boots are perfect for keeping a stable stance while aiming, shooting, and killing.",
   "image": "thumb/Deadeye_Boots.png/128px-Deadeye_Boots.png?8e7e26",
@@ -16920,8 +17450,8 @@
  {
   "name": "Deadeye Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Your shots will always find their mark with these gloves.",
   "image": "thumb/Deadeye_Gloves.png/128px-Deadeye_Gloves.png?61587c",
@@ -16955,10 +17485,10 @@
  {
   "name": "Deadeye Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "This archery hood lets you watch over the peaks and valleys like a hawk. Nothing will escape your vigilant gaze !",
+  "description": "This archery hood lets you watch over the peaks and valleys like a hawk. Nothing will escape your vigilant gaze!",
   "image": "thumb/Deadeye_Hood.png/128px-Deadeye_Hood.png?232e66",
   "recipes": [
    {
@@ -16990,10 +17520,10 @@
  {
   "name": "Deadeye Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "These pants are extremely light and therefore enable quick and flexible movements. Crouch, climb, and run to gain an advantage !",
+  "description": "These pants are extremely light and therefore enable quick and flexible movements. Crouch, climb, and run to gain an advantage!",
   "image": "thumb/Deadeye_Trousers.png/128px-Deadeye_Trousers.png?1d6090",
   "recipes": [
    {
@@ -17029,8 +17559,8 @@
  {
   "name": "Deadeye Vest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Duck, dodge, and roll out of harm's way with this lightweight vest.",
   "image": "thumb/Deadeye_Vest.png/128px-Deadeye_Vest.png?156d0c",
@@ -17489,8 +18019,8 @@
  {
   "name": "Deerstalker Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Stalking prey in these boots makes barely any sound. None will hear you coming.",
   "image": "thumb/Deerstalker_Boots.png/128px-Deerstalker_Boots.png?fb5f29",
@@ -17524,8 +18054,8 @@
  {
   "name": "Deerstalker Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Every movement is softened and muted whilst clad in this upper body armor.",
   "image": "thumb/Deerstalker_Chest.png/128px-Deerstalker_Chest.png?72393b",
@@ -17563,8 +18093,8 @@
  {
   "name": "Deerstalker Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Firing an arrow with these gloves is effortless, creating a silky smooth stream of movement for the wearer.",
   "image": "thumb/Deerstalker_Gloves.png/128px-Deerstalker_Gloves.png?f51ef4",
@@ -17598,8 +18128,8 @@
  {
   "name": "Deerstalker Hood",
   "type": "Head Armor",
-  "rarity": "Commo",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The cloth straps attached to this mask glide softly in the breeze, helping to discern wind direction and speed.",
   "image": "thumb/Deerstalker_Hood.png/128px-Deerstalker_Hood.png?940e71",
@@ -17633,8 +18163,8 @@
  {
   "name": "Deerstalker Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Warm and padded hunting pants that will retain your body heat during cold, starless nights.",
   "image": "thumb/Deerstalker_Trousers.png/128px-Deerstalker_Trousers.png?949858",
@@ -18152,8 +18682,8 @@
  {
   "name": "Diving Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 45,
+  "rarity": "Epic",
+  "level": null,
   "biomes": null,
   "description": "A silver helmet that increases your maximum oxygen while diving. Its delicate engraved lines imitate the flow of water, and the viewport is segmented like a clam's shell.",
   "image": "thumb/Diving_Helmet.png/128px-Diving_Helmet.png?6cfbff",
@@ -20136,6 +20666,121 @@
   ]
  },
  {
+  "name": "Efflorescent Hope Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Cloven, finely segmented boots. Their shape is reminiscent of Fae Deer hooves.",
+  "image": "thumb/Efflorescent_Hope_Boots.png/128px-Efflorescent_Hope_Boots.png?dd3d85",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Efflorescent Hope Chest",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "This royal chest piece frames a gleaming gem as its heart, reminding the wearer that hope will prevail. Taupe colored sleeves drape at the sides like a chrysalis being shed. The shoulders are accentuated by wing- or petal-like shapes, blossoming outwards.",
+  "image": "thumb/Efflorescent_Hope_Chest.png/128px-Efflorescent_Hope_Chest.png?cc702c",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Efflorescent Hope Flower Crown",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A wearable floral wreath. Each sprig, bud, and leaf has been meticulously woven to create a blooming halo. Whoever hand-crafted this did so with botanical knowledge and love.",
+  "image": "thumb/Efflorescent_Hope_Flower_Crown.png/128px-Efflorescent_Hope_Flower_Crown.png?d6f262",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Efflorescent Hope Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Gold veins flow through these gloves like sun-kissed rivers emerging after an icy slumber. The color of the underlying cloth changes from blue to green, symbolizing an awakening - a reach toward the light above the water's surface.",
+  "image": "thumb/Efflorescent_Hope_Gloves.png/128px-Efflorescent_Hope_Gloves.png?44f52f",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Efflorescent Hope Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Deep blue pants made from opaque material. With these, warmth will embrace you like a cocoon.",
+  "image": "thumb/Efflorescent_Hope_Pants.png/128px-Efflorescent_Hope_Pants.png?540c5b",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Eggs",
   "type": "Consumables",
   "rarity": "Common",
@@ -20230,8 +20875,8 @@
  {
   "name": "Emberguard Boots",
   "type": "Foot Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Imposing boots that leave a deep imprint wherever they step. They possess additional plating towards the outer sides, protecting the wearer from low blows.",
   "image": "thumb/Emberguard_Boots.png/128px-Emberguard_Boots.png?fb34a6",
@@ -20265,11 +20910,11 @@
  {
   "name": "Emberguard Chestplate",
   "type": "Upper Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A venerated chestplate that reflects the light of the Mother Flame on its polished, angular surface. Anyone who brandishes this armor vows to be the sword of the Flame and the guard of the light.",
-  "image": "thumb/Emberguard_Chestplate.png/128px-Emberguard_Chestplate.png?f040b6",
+  "image": "thumb/Emberguard_Chestplate.png/128px-Emberguard_Chestplate.png?32453b",
   "recipes": [
    {
     "crafter": "Blacksmith",
@@ -20304,8 +20949,8 @@
  {
   "name": "Emberguard Gloves",
   "type": "Arm Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Proud gloves forged from the finest celestium. Two metal ridges protrude from each spine, enabling the warrior wearing them to push their way through hordes of enemies if needed.",
   "image": "thumb/Emberguard_Gloves.png/128px-Emberguard_Gloves.png?650b09",
@@ -20339,8 +20984,8 @@
  {
   "name": "Emberguard Helmet",
   "type": "Head Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The crest atop this helmet stretches upwards, caressing the skies like the crown of an Ancient Spire and willing to frame within it the light of the sun.",
   "image": "thumb/Emberguard_Helmet.png/128px-Emberguard_Helmet.png?f4e851",
@@ -20374,8 +21019,8 @@
  {
   "name": "Emberguard Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A pattern ripples across the fabric, creating subtle peaks and valleys as fingers draw across it.",
   "image": "thumb/Emberguard_Pants.png/128px-Emberguard_Pants.png?fc7b1e",
@@ -22768,6 +23413,121 @@
   ]
  },
  {
+  "name": "Exclusive Hollow Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Sturdy boots that withstand any march for hundreds of miles.",
+  "image": "thumb/Exclusive_Hollow_Boots.png/128px-Exclusive_Hollow_Boots.png?f88483",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Exclusive Hollow Chestplate",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "This plate armor stands out with its golden glow, metal trim, and vibrant underlying colorway. The royal purple was achieved by harvesting and heating sea snail mucus in the past, and the extinction of aquatic wildlife only heightens its exclusivity.",
+  "image": "thumb/Exclusive_Hollow_Chestplate.png/128px-Exclusive_Hollow_Chestplate.png?f9a484",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Exclusive Hollow Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "The golden adornments on these gloves create an aura of superiority and grace.",
+  "image": "thumb/Exclusive_Hollow_Gloves.png/128px-Exclusive_Hollow_Gloves.png?f3c20b",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Exclusive Hollow Helmet",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Vibrant amethyst-colored plumes adorn this helmet, indicating that the previous wearer might have been a royal commander.",
+  "image": "thumb/Exclusive_Hollow_Helmet.png/128px-Exclusive_Hollow_Helmet.png?87048e",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Exclusive Hollow Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Pants fit for a midnight march. The metal plating is polished enough to reflect the moonlight.",
+  "image": "thumb/Exclusive_Hollow_Pants.png/128px-Exclusive_Hollow_Pants.png?314867",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Exotic Fruit Salad",
   "type": "Consumables",
   "rarity": "Uncommon",
@@ -22931,7 +23691,7 @@
   "rarity": "Cosmetic",
   "level": null,
   "biomes": null,
-  "description": "Fantastic Gloves for digging up secrets, uncovering treasures, or cartographing never-before-seen lands!",
+  "description": "Fantastic gloves for digging up secrets, uncovering treasures, or cartographing never-before-seen lands!",
   "image": "thumb/Explorer_Gloves.png/128px-Explorer_Gloves.png?fc79a1",
   "recipes": [
    {
@@ -23730,6 +24490,98 @@
      {
       "name": "Bonemeal",
       "quantity": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Farmer Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Simple boots for hardworking folk.",
+  "image": "thumb/Farmer_Boots.png/128px-Farmer_Boots.png?175f7d",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Farmer Garb",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Faintly smells of grain, sweet summer days, and honey.",
+  "image": "thumb/Farmer_Garb.png/128px-Farmer_Garb.png?dd5dc5",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Farmer Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "It keeps the sun out of your tired eyes. That's all it has to do!",
+  "image": "thumb/Farmer_Hat.png/128px-Farmer_Hat.png?ec8e2a",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Farmer Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Sunbleached pants, carefully patched and sown with leftover thread. The cloth is wearing thin in some areas...",
+  "image": "thumb/Farmer_Pants.png/128px-Farmer_Pants.png?d0cd66",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
      }
     ]
    }
@@ -26244,8 +27096,8 @@
  {
   "name": "Flame Arcanist Boots",
   "type": "Foot Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Pointy-toed shoes that curl upwards ever so slightly near the front. They feel nice and cool on the feet.",
   "image": "thumb/Flame_Arcanist_Boots.png/128px-Flame_Arcanist_Boots.png?32de0a",
@@ -26279,8 +27131,8 @@
  {
   "name": "Flame Arcanist Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "An admiral blue-colored garment often worn by magic scholars who revere the Mother Flame. The cape attached to the shoulders falls in layers and ends in uneven trim, dancing like little spouts of fire as it moves in the wind.",
   "image": "thumb/Flame_Arcanist_Chest.png/128px-Flame_Arcanist_Chest.png?246de4",
@@ -26318,8 +27170,8 @@
  {
   "name": "Flame Arcanist Gloves",
   "type": "Arm Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Gilded gloves that brandish both royal blue and gold. They're emblazoned with long, metal claws that tip the gloves.",
   "image": "thumb/Flame_Arcanist_Gloves.png/128px-Flame_Arcanist_Gloves.png?7661e8",
@@ -26353,8 +27205,8 @@
  {
   "name": "Flame Arcanist Hat",
   "type": "Head Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A voluptuous, pointed wizard hat! The crowning glory of clothing for the magically inclined.",
   "image": "thumb/Flame_Arcanist_Hat.png/128px-Flame_Arcanist_Hat.png?57c83c",
@@ -26388,8 +27240,8 @@
  {
   "name": "Flame Arcanist Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "An assortment of dark layers that protect the wearer's legs from becoming singed, scorched, or incinerated when conjuring fire magic.",
   "image": "thumb/Flame_Arcanist_Pants.png/128px-Flame_Arcanist_Pants.png?548197",
@@ -26442,6 +27294,121 @@
      {
       "name": "Granite",
       "quantity": 20
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Flame Pact Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Brown boots equipped with belt buckles and shoe laces. Perfect for a stroll through your wonderful village, castle, or underground bunker.",
+  "image": "thumb/Flame_Pact_Boots.png/128px-Flame_Pact_Boots.png?ffdb5b",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Flame Pact Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Gloves adorned with glowing, green gems. No matter what you're rebuilding or tearing down - you'll always look fashionable with these!",
+  "image": "thumb/Flame_Pact_Gloves.png/128px-Flame_Pact_Gloves.png?57602b",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Flame Pact Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A floppy hat with red feathers.",
+  "image": "thumb/Flame_Pact_Hat.png/128px-Flame_Pact_Hat.png?beb549",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Flame Pact Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Light brown pants. Comfortable and distinguished in their simplicity.",
+  "image": "thumb/Flame_Pact_Pants.png/128px-Flame_Pact_Pants.png?3721d2",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Flame Pact Vest",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "The best way to elevate your outfit is by extensively adding belts and straps to an inflationary degree, or so they say. A golden sigil on the chest signals your dedication to the Flame.",
+  "image": "thumb/Flame_Pact_Vest.png/128px-Flame_Pact_Vest.png?f34933",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
      }
     ]
    }
@@ -26951,6 +27918,121 @@
   ]
  },
  {
+  "name": "Fluffy Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These boots are stuffed with extra fluff, thus keeping your feet nice and warm in the snow.",
+  "image": "thumb/Fluffy_Boots.png/128px-Fluffy_Boots.png?8a1353",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fluffy Hood",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A nice, cream-colored hood to keep you warm and snug. The droopy little ears are purely fashionable, but aren't they cute?",
+  "image": "thumb/Fluffy_Hood.png/128px-Fluffy_Hood.png?4604e9",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fluffy Mittens",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These gloves were patched together with two different fabrics. They re-create the look of \"hooves\".",
+  "image": "thumb/Fluffy_Mittens.png/128px-Fluffy_Mittens.png?f9f5fc",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fluffy Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These pants are nothing special on the outside, but inside, they're lined with a fur layer.",
+  "image": "thumb/Fluffy_Pants.png/128px-Fluffy_Pants.png?dba062",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fluffy Tunic",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A warm tunic, lined with white wool. The sleeves are long and wide, so it's fun to swing your arms around gleefully!",
+  "image": "thumb/Fluffy_Tunic.png/128px-Fluffy_Tunic.png?adfb58",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Flute",
   "type": "Tools",
   "rarity": "Common",
@@ -27299,6 +28381,189 @@
   ]
  },
  {
+  "name": "Fowler Boots",
+  "type": "Foot Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "With these weighted soles, even shaky or uneven ground will not disturb your aim.",
+  "image": "thumb/Fowler_Boots.png/128px-Fowler_Boots.png?e84006",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Acidic Mycelium",
+      "quantity": 15
+     },
+     {
+      "name": "Fossilized Bone",
+      "quantity": 2
+     },
+     {
+      "name": "Tin Bars",
+      "quantity": 1
+     },
+     {
+      "name": "Leather",
+      "quantity": 3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fowler Chest",
+  "type": "Upper Body Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "The details on this piece of upper body armor were greatly inspired by wing feathers.",
+  "image": "thumb/Fowler_Chest.png/128px-Fowler_Chest.png?79741e",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Monstrous Ribs",
+      "quantity": 2
+     },
+     {
+      "name": "Fossilized Bone Dust",
+      "quantity": 1
+     },
+     {
+      "name": "Bronze Bars",
+      "quantity": 4
+     },
+     {
+      "name": "Feather",
+      "quantity": 4
+     },
+     {
+      "name": "Ammonia Gland",
+      "quantity": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fowler Gloves",
+  "type": "Arm Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "Wearing these gloves makes the pulse slow down mysteriously before going in for the kill, thus steadying the hands.",
+  "image": "thumb/Fowler_Gloves.png/128px-Fowler_Gloves.png?6d27bf",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Leather",
+      "quantity": 2
+     },
+     {
+      "name": "Corrosive Blood",
+      "quantity": 4
+     },
+     {
+      "name": "Feather",
+      "quantity": 1
+     },
+     {
+      "name": "Critter Glands",
+      "quantity": 6
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fowler Helmet",
+  "type": "Head Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "The metal adornment on this hood faintly resembles the beak of a hawk.",
+  "image": "thumb/Fowler_Helmet.png/128px-Fowler_Helmet.png?4ac553",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Sage Leaves",
+      "quantity": 2
+     },
+     {
+      "name": "Leather",
+      "quantity": 2
+     },
+     {
+      "name": "Feather",
+      "quantity": 2
+     },
+     {
+      "name": "Shroud Gelatin",
+      "quantity": 6
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fowler Trousers",
+  "type": "Lower Body Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "The pants were made from varied materials and protect all the most important areas adequately.",
+  "image": "thumb/Fowler_Trousers.png/128px-Fowler_Trousers.png?5dac92",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Shroud Adhesive",
+      "quantity": 3
+     },
+     {
+      "name": "Mint Mushroom Meat",
+      "quantity": 10
+     },
+     {
+      "name": "Bronze Bars",
+      "quantity": 2
+     },
+     {
+      "name": "Petrified Shroud Stalker Shell",
+      "quantity": 1
+     },
+     {
+      "name": "Feather",
+      "quantity": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Fresh Shroud Spore",
   "type": "Materials",
   "rarity": "Uncommon",
@@ -27447,8 +28712,8 @@
  {
   "name": "Frostbite Slasher Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Heavy boots with metal caps, perfect for kicking down doors or crushing skulls under your heel.",
   "image": "thumb/Frostbite_Slasher_Boots.png/128px-Frostbite_Slasher_Boots.png?d44bd8",
@@ -27482,10 +28747,10 @@
  {
   "name": "Frostbite Slasher Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "A breezy west layered on top of a long shirt. The additional belt buckle strapped across the chest holds some spare blades.",
+  "description": "A breezy vest layered on top of a long shirt. The additional belt buckle strapped across the chest holds some spare blades.",
   "image": "thumb/Frostbite_Slasher_Chest.png/128px-Frostbite_Slasher_Chest.png?c03843",
   "recipes": [
    {
@@ -27521,8 +28786,8 @@
  {
   "name": "Frostbite Slasher Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Padded gloves made from thick white cloth and deep blue leather arm guards. A small buckle and cyan string hold them together. The fingertips are left bare, so you can still feel the pulse of the hunt.",
   "image": "thumb/Frostbite_Slasher_Gloves.png/128px-Frostbite_Slasher_Gloves.png?a966e6",
@@ -27556,8 +28821,8 @@
  {
   "name": "Frostbite Slasher Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The fearsome metal mask is only partially covered by the hood, leaving most of its sharp edges and lines visible to your prey.",
   "image": "thumb/Frostbite_Slasher_Hood.png/128px-Frostbite_Slasher_Hood.png?876479",
@@ -27591,8 +28856,8 @@
  {
   "name": "Frostbite Slasher Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This pair of pants has ample space for carrying exposed blades and hidden toxins.",
   "image": "thumb/Frostbite_Slasher_Trousers.png/128px-Frostbite_Slasher_Trousers.png?ad5c13",
@@ -27677,7 +28942,7 @@
   "name": "Fur Boots",
   "type": "Foot Armor",
   "rarity": "Common",
-  "level": 5,
+  "level": null,
   "biomes": null,
   "description": "Warmer and sturdier than simple cloth.",
   "image": "thumb/Fur_Boots.png/128px-Fur_Boots.png?2ca331",
@@ -27708,7 +28973,7 @@
   "name": "Fur Chest",
   "type": "Upper Body Armor",
   "rarity": "Common",
-  "level": 5,
+  "level": null,
   "biomes": null,
   "description": "Reinforced with Metal Scraps for better protection.",
   "image": "thumb/Fur_Chest.png/128px-Fur_Chest.png?2f4fd4",
@@ -27743,7 +29008,7 @@
   "name": "Fur Gloves",
   "type": "Arm Armor",
   "rarity": "Common",
-  "level": 5,
+  "level": null,
   "biomes": null,
   "description": "Simple but reliable protection for hands.",
   "image": "thumb/Fur_Gloves.png/128px-Fur_Gloves.png?f7f204",
@@ -27774,7 +29039,7 @@
   "name": "Fur Hood",
   "type": "Head Armor",
   "rarity": "Common",
-  "level": 5,
+  "level": null,
   "biomes": null,
   "description": "Simplistic head protection. It won't guard against much, but it's better than nothing.",
   "image": "thumb/Fur_Hood.png/128px-Fur_Hood.png?346741",
@@ -27828,7 +29093,7 @@
   "name": "Fur Trousers",
   "type": "Lower Body Armor",
   "rarity": "Common",
-  "level": 5,
+  "level": null,
   "biomes": null,
   "description": "A little archaic, but better than cloth.",
   "image": "thumb/Fur_Trousers.png/128px-Fur_Trousers.png?423979",
@@ -29802,10 +31067,10 @@
  {
   "name": "Golden Bulwark Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "You've likely never work foot armor this light, but give it a shot - the chest plate's weight needs counterbalancing somewhere.",
+  "description": "You've likely never worn foot armor this light, but give it a shot - the chest plate's weight needs counterbalancing somewhere.",
   "image": "thumb/Golden_Bulwark_Boots.png/128px-Golden_Bulwark_Boots.png?8935f7",
   "recipes": [
    {
@@ -29837,8 +31102,8 @@
  {
   "name": "Golden Bulwark Chest Plate",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A gold-plated chest plate, heavy and imposing - piercing it would be no easy task.",
   "image": "thumb/Golden_Bulwark_Chest_Plate.png/128px-Golden_Bulwark_Chest_Plate.png?bef456",
@@ -29876,8 +31141,8 @@
  {
   "name": "Golden Bulwark Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Blocking feels effortless in these gloves, and the crystals catch the sun with every move.",
   "image": "thumb/Golden_Bulwark_Gloves.png/128px-Golden_Bulwark_Gloves.png?34bd68",
@@ -29915,10 +31180,10 @@
  {
   "name": "Golden Bulwark Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Just one look into these eyes and your enemies will want to turn the other way. That was your first line of defense, and you didn't have to lift a finger.",
+  "description": "Just one look into those eyes and your enemies will want to turn the other way. That was your first line of defense, and you didn't have to lift a finger.",
   "image": "thumb/Golden_Bulwark_Helmet.png/128px-Golden_Bulwark_Helmet.png?64efe3",
   "recipes": [
    {
@@ -29950,8 +31215,8 @@
  {
   "name": "Golden Bulwark Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The pants might not look like much, but they actually do their job of protecting your life in battle.",
   "image": "thumb/Golden_Bulwark_Pants.png/128px-Golden_Bulwark_Pants.png?f127f4",
@@ -31099,6 +32364,98 @@
   "description": "A resilient grasshopper that's adapted to the warm colors of the Nomad Highlands. It can be used as fishing bait, most likely to catch uncommon fish.",
   "image": "thumb/Grasshopper.png/128px-Grasshopper.png?a96484",
   "recipes": []
+ },
+ {
+  "name": "Gravedigger Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Perfect for wading through ash and moldy earth.",
+  "image": "thumb/Gravedigger_Boots.png/128px-Gravedigger_Boots.png?d004fe",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Gravedigger Garb",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These clothes smell of decay.",
+  "image": "thumb/Gravedigger_Garb.png/128px-Gravedigger_Garb.png?15d0a2",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Gravedigger Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "People don't make eye contact with gravediggers because it brings bad luck. Therefore, some graveyard keepers wear a cap that covers their eyes to avoid trouble.",
+  "image": "thumb/Gravedigger_Hat.png/128px-Gravedigger_Hat.png?c0c67e",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Gravedigger Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "There's some extra space in the pockets perfect for storing crypt keys, \"borrowed\" rings, and lost fingerbones.",
+  "image": "thumb/Gravedigger_Pants.png/128px-Gravedigger_Pants.png?4c980c",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
  },
  {
   "name": "Graveyard Fence",
@@ -32593,8 +33950,8 @@
  {
   "name": "Guardian Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Hefty boots. They will leave considerable footprints in the ground when you defend those in need.",
   "image": "thumb/Guardian_Boots.png/128px-Guardian_Boots.png?6e0d1f",
@@ -32630,8 +33987,8 @@
  {
   "name": "Guardian Chestplate",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Prodigious tin armor. The glistening sheen inspires hope.",
   "image": "thumb/Guardian_Chestplate.png/128px-Guardian_Chestplate.png?13bb89",
@@ -32671,8 +34028,8 @@
  {
   "name": "Guardian Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Big and bulky gloves, usually worn when wielding large weaponry and shields.",
   "image": "thumb/Guardian_Gloves.png/128px-Guardian_Gloves.png?3f5895",
@@ -32708,8 +34065,8 @@
  {
   "name": "Guardian Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Seeing this helmet makes others feel safe and secure.",
   "image": "thumb/Guardian_Helmet.png/128px-Guardian_Helmet.png?a65617",
@@ -32782,8 +34139,8 @@
  {
   "name": "Guardian Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Trousers that were made from a very stiff material.",
   "image": "thumb/Guardian_Trousers.png/128px-Guardian_Trousers.png?ceeb80",
@@ -32823,8 +34180,8 @@
  {
   "name": "Hailcaster Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These boots provide resistance and grip when stuck in a fierce snowstorm.",
   "image": "thumb/Hailcaster_Boots.png/128px-Hailcaster_Boots.png?cafa8c",
@@ -32858,8 +34215,8 @@
  {
   "name": "Hailcaster Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A carefully layered tunic, tied over the chest with gold string. The cloth is thick, but flowy. It will enable quick magical dashes while protecting you from the bitter cold.",
   "image": "thumb/Hailcaster_Chest.png/128px-Hailcaster_Chest.png?e25470",
@@ -32897,8 +34254,8 @@
  {
   "name": "Hailcaster Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Simple layered gloves that allow for optimal versatility and swiftness when spellcasting.",
   "image": "thumb/Hailcaster_Gloves.png/128px-Hailcaster_Gloves.png?44ff78",
@@ -32932,8 +34289,8 @@
  {
   "name": "Hailcaster Hat",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A sophisticated crown that frames the wearer's head with a golden halo and amethyst sparks. It represents the dawning sun, bathing the mountainsides in a long-awaited morning glow.",
   "image": "thumb/Hailcaster_Hat.png/128px-Hailcaster_Hat.png?454fde",
@@ -32967,8 +34324,8 @@
  {
   "name": "Hailcaster Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Dark padded pants with golden seams. They're warm and comfortable.",
   "image": "thumb/Hailcaster_Pants.png/128px-Hailcaster_Pants.png?1df471",
@@ -33625,6 +34982,29 @@
   ]
  },
  {
+  "name": "Headscarf",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A simple headscarf that will keep your scalp safe from the burning heat of the overhead sun.",
+  "image": "thumb/Headscarf.png/128px-Headscarf.png?e5a7ec",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Heal Beam",
   "type": "Spell",
   "rarity": "Common",
@@ -33728,8 +35108,8 @@
  {
   "name": "Healer Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "No need to keep these boots clean and neat. They will get bloody. Your teammates will make sure of that.",
   "image": "thumb/Healer_Boots.png/128px-Healer_Boots.png?8d5667",
@@ -33765,10 +35145,10 @@
  {
   "name": "Healer Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "These gloves allow nimble fingers to patch up wounds in a pinch.",
+  "description": "These gloves allow nimble fingers to patch up wounds when in a pinch.",
   "image": "thumb/Healer_Gloves.png/128px-Healer_Gloves.png?adc930",
   "recipes": [
    {
@@ -33802,8 +35182,8 @@
  {
   "name": "Healer Headwrap",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A headwrap that protects your sensitive skull from traumatic injury. Enough to postpone the inevitable for a while.",
   "image": "thumb/Healer_Headwrap.png/128px-Healer_Headwrap.png?2771fd",
@@ -33839,8 +35219,8 @@
  {
   "name": "Healer Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Woven pants which keep the wearer from scraping their knees.",
   "image": "thumb/Healer_Pants.png/128px-Healer_Pants.png?1d7209",
@@ -33880,10 +35260,10 @@
  {
   "name": "Healer Tunic",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "A breathable tunic with ample space for bandages, herbs, and tissues.",
+  "description": "A breathable tunic with ample space for storing bandages, herbs, and tissues.",
   "image": "thumb/Healer_Tunic.png/128px-Healer_Tunic.png?108af3",
   "recipes": [
    {
@@ -34125,10 +35505,10 @@
  {
   "name": "Herbalist Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Quickly dash to the rescue in these comfortable and snug boots !",
+  "description": "Quickly dash to the rescue in these comfortable and snug boots!",
   "image": "thumb/Herbalist_Boots.png/128px-Herbalist_Boots.png?2fa71a",
   "recipes": [
    {
@@ -34160,10 +35540,10 @@
  {
   "name": "Herbalist Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "These fingerless gloves allow the weaver to feel each leaf and root before picking, allowing a proper assessment.",
+  "description": "These fingerless gloves allow the wearer to feel each leaf and root before picking, allowing a proper assessment.",
   "image": "thumb/Herbalist_Gloves.png/128px-Herbalist_Gloves.png?1b0c67",
   "recipes": [
    {
@@ -34195,10 +35575,10 @@
  {
   "name": "Herbalist Headwrap",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Headgear for herbalists. Healing others is suprisingly hard when you can't actually see them.",
+  "description": "Headgear for herbalists. Healing others is surprisingly hard when you can't actually see them.",
   "image": "thumb/Herbalist_Headwrap.png/128px-Herbalist_Headwrap.png?73ca33",
   "recipes": [
    {
@@ -34230,8 +35610,8 @@
  {
   "name": "Herbalist Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Some plain herbalist pants. They smell like rosemary and thyme.",
   "image": "thumb/Herbalist_Pants.png/128px-Herbalist_Pants.png?ca1d66",
@@ -34269,8 +35649,8 @@
  {
   "name": "Herbalist Tunic",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Classic herbalist garb with widened pockets for storing healing tinctures.",
   "image": "thumb/Herbalist_Tunic.png/128px-Herbalist_Tunic.png?b31852",
@@ -35181,6 +36561,121 @@
   ]
  },
  {
+  "name": "Hollow's Eve Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "You'll make people shake in their boots when you approach in these spooky shoes!",
+  "image": "thumb/Hollow%27s_Eve_Boots.png/128px-Hollow%27s_Eve_Boots.png?1ce042",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hollow's Eve Chest",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A dark tunic held together by \"fake\" bones. They rattle like real ones do. How suspicious!",
+  "image": "thumb/Hollow%27s_Eve_Chest.png/128px-Hollow%27s_Eve_Chest.png?5abbd2",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hollow's Eve Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These dark gloves are ideal for going trick or treating!",
+  "image": "thumb/Hollow%27s_Eve_Gloves.png/128px-Hollow%27s_Eve_Gloves.png?177d60",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hollow's Eve Hood",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A shadowy hood that hides a sinister skull mask underneath. Scary!",
+  "image": "thumb/Hollow%27s_Eve_Hood.png/128px-Hollow%27s_Eve_Hood.png?601b84",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hollow's Eve Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Spooky pants for spooky fellows!",
+  "image": "thumb/Hollow%27s_Eve_Pants.png/128px-Hollow%27s_Eve_Pants.png?e1f653",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Holly and Berry",
   "type": "Generic Item",
   "rarity": "Common",
@@ -35620,8 +37115,8 @@
  {
   "name": "Hunter Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These boots are ideal for stalking prey.",
   "image": "thumb/Hunter_Boots.png/128px-Hunter_Boots.png?b3aab3",
@@ -35649,7 +37144,41 @@
       "quantity": 3
      }
     ]
-   },
+   }
+  ]
+ },
+ {
+  "name": "Hunter Boots (Cosmetic)",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Makes your step silent and swift.",
+  "image": "thumb/Hunter_Boots_%28Cosmetic%29.png/128px-Hunter_Boots_%28Cosmetic%29.png?492204",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hunter Garb",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "This armor provides perfect protection when venturing out into the forest.",
+  "image": "thumb/Hunter_Garb.png/128px-Hunter_Garb.png?11bee0",
+  "recipes": [
    {
     "crafter": "Lunar New Year Trader",
     "stations": [],
@@ -35667,10 +37196,10 @@
  {
   "name": "Hunter Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "These leather gloves have been adorned with metal to protect the weaver's knuckles.",
+  "description": "These leather gloves have been adorned with metal to protect the wearer's knuckles.",
   "image": "thumb/Hunter_Gloves.png/128px-Hunter_Gloves.png?84173d",
   "recipes": [
    {
@@ -35700,10 +37229,33 @@
   ]
  },
  {
+  "name": "Hunter Headband",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A yellow headband that keeps your hair out of your face when hunting or lumbering.",
+  "image": "thumb/Hunter_Headband.png/128px-Hunter_Headband.png?cd3b33",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Hunter Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Remain unseen and strike from the shadows with this formidable archer's hood.",
   "image": "thumb/Hunter_Hood.png/128px-Hunter_Hood.png?96e16a",
@@ -35735,10 +37287,33 @@
   ]
  },
  {
+  "name": "Hunter Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These belted pants will create a perfect fit no matter if you've had venison or porridge for dinner.",
+  "image": "thumb/Hunter_Pants.png/128px-Hunter_Pants.png?95b330",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Hunter Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Nothing is more suitable for a long prowl than this set of pants.",
   "image": "thumb/Hunter_Trousers.png/128px-Hunter_Trousers.png?2fc82d",
@@ -35776,10 +37351,10 @@
  {
   "name": "Hunter Vest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Taking down prey, and even other predators, is far easier with this finely made hunter's armor.",
+  "description": "Taking down prey, and even other predators is far easier with this finely made hunter's armor.",
   "image": "thumb/Hunter_Vest.png/128px-Hunter_Vest.png?f3e41f",
   "recipes": [
    {
@@ -38143,6 +39718,29 @@
      {
       "name": "Honey",
       "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Jester Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A gleeful and jingly hat. The little bells make frolicking around more joyous.",
+  "image": "thumb/Jester_Hat.png/128px-Jester_Hat.png?b695eb",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
      }
     ]
    }
@@ -41109,8 +42707,8 @@
  {
   "name": "Lifelock Boots",
   "type": "Foot Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Gray boots that have been darkened by smoke and ash.",
   "image": "thumb/Lifelock_Boots.png/128px-Lifelock_Boots.png?e0e34c",
@@ -41144,8 +42742,8 @@
  {
   "name": "Lifelock Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A chestpiece made heavy through dangling chains. The metal plates leave an empty space, a void atop the heart, that's shaped like a keyhole. The once alabaster garments are ingrained with soot.",
   "image": "thumb/Lifelock_Chest.png/128px-Lifelock_Chest.png?637e61",
@@ -41183,8 +42781,8 @@
  {
   "name": "Lifelock Gloves",
   "type": "Arm Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Use these gloves to seal away your combatons' life force, binding them to life at your behest. Should they fall, nevertheless, then they will rise from the ashes with a flick of your wrist.",
   "image": "thumb/Lifelock_Gloves.png/128px-Lifelock_Gloves.png?dd90d1",
@@ -41218,8 +42816,8 @@
  {
   "name": "Lifelock Helmet",
   "type": "Head Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A robust circlet helmet that sits deep on the forehead and covers the eyes, like a descending one-eyed vulture.",
   "image": "thumb/Lifelock_Helmet.png/128px-Lifelock_Helmet.png?97ced8",
@@ -41253,8 +42851,8 @@
  {
   "name": "Lifelock Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Pants that anchor the wearer firmly on the ground through heavy fabric. While all others fall, you must remain standing... to pick them back up, to force them to continue on fighting.",
   "image": "thumb/Lifelock_Pants.png/128px-Lifelock_Pants.png?3eecc4",
@@ -42024,7 +43622,7 @@
   "rarity": "Cosmetic",
   "level": null,
   "biomes": null,
-  "description": "These glasses have seen countless horizons, failures, and successes. You think you can see some faint scratch marks on them. were they caused by vultures?",
+  "description": "These glasses have seen countless horizons, failures, and successes. You think you can see some faint scratch marks on them - were they caused by vultures?",
   "image": "thumb/Loraine%27s_Glasses.png/128px-Loraine%27s_Glasses.png?636a61",
   "recipes": [
    {
@@ -42245,6 +43843,121 @@
       "name": "Gold Dust",
       "quantity": 1
      },
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Lumberer Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": 45,
+  "biomes": null,
+  "description": "Sturdy boots for gathering wood. They're lined with fur, ideal for the summits.",
+  "image": "thumb/Lumberer_Boots.png/128px-Lumberer_Boots.png?7c666f",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Lumberer Coat",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": 45,
+  "biomes": null,
+  "description": "A heavy tunic with fur lining.",
+  "image": "thumb/Lumberer_Coat.png/128px-Lumberer_Coat.png?3ea7dc",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Lumberer Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": 45,
+  "biomes": null,
+  "description": "Worn-out gloves with sun spots and a fur trim.",
+  "image": "thumb/Lumberer_Gloves.png/128px-Lumberer_Gloves.png?a603ec",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Lumberer Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": 45,
+  "biomes": null,
+  "description": "A hat that is made both practical and fun with added fluffy fur.",
+  "image": "thumb/Lumberer_Hat.png/128px-Lumberer_Hat.png?8fb5d2",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Lumberer Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": 45,
+  "biomes": null,
+  "description": "Ordinary leather pants.",
+  "image": "thumb/Lumberer_Pants.png/128px-Lumberer_Pants.png?2218b2",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
      {
       "name": "Gold Coins",
       "quantity": 5
@@ -42545,8 +44258,8 @@
  {
   "name": "Mage Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Light boots. They're slightly pointed at the toes.",
   "image": "thumb/Mage_Boots.png/128px-Mage_Boots.png?64b078",
@@ -42582,8 +44295,8 @@
  {
   "name": "Mage Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This garment is held together by oakwood buttons, a woven belt, and magic itself! The buttons are doing most of the work, though.",
   "image": "thumb/Mage_Chest.png/128px-Mage_Chest.png?eb676a",
@@ -42623,8 +44336,8 @@
  {
   "name": "Mage Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Artificial nails were added to these otherwise simple mage gloves to make them more imposing and fashionable.",
   "image": "thumb/Mage_Gloves.png/128px-Mage_Gloves.png?31bc6e",
@@ -42660,8 +44373,8 @@
  {
   "name": "Mage Hat",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "No mage armor set is complete without a large, brimmed hat.",
   "image": "thumb/Mage_Hat.png/128px-Mage_Hat.png?706fe5",
@@ -42697,8 +44410,8 @@
  {
   "name": "Mage Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These comfortable and plain pants are perfect for apprentices who wish to gather some firsthand adventuring experience.",
   "image": "thumb/Mage_Trousers.png/128px-Mage_Trousers.png?c93af7",
@@ -42748,10 +44461,10 @@
  {
   "name": "Magician Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Low - cut shoes. Exposing one's ankles is quite enchanting !",
+  "description": "Low-cut shoes. Exposing one's ankles is quite enchanting!",
   "image": "thumb/Magician_Boots.png/128px-Magician_Boots.png?455442",
   "recipes": [
    {
@@ -42783,8 +44496,8 @@
  {
   "name": "Magician Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "An ordinary shirt, covered partially by a more sophisticated jacket.",
   "image": "thumb/Magician_Chest.png/128px-Magician_Chest.png?937849",
@@ -42822,10 +44535,10 @@
  {
   "name": "Magician Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "A magician's gloves, bound by a magic - infused golden thread.",
+  "description": "A magician's gloves, bound by a magic-infused golden thread.",
   "image": "thumb/Magician_Gloves.png/128px-Magician_Gloves.png?6b7ff2",
   "recipes": [
    {
@@ -42857,8 +44570,8 @@
  {
   "name": "Magician Hat",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This magician's headgear frames the wearer's face with a luscious golden trim.",
   "image": "thumb/Magician_Hat.png/128px-Magician_Hat.png?ce3d28",
@@ -42892,8 +44605,8 @@
  {
   "name": "Magician Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These pants were made from silky smooth cloth, gracing only the most esteemed magicians.",
   "image": "thumb/Magician_Trousers.png/128px-Magician_Trousers.png?255cf3",
@@ -43018,6 +44731,52 @@
      },
      {
       "name": "Amber",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Maid Garb",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Soft and comfortable maid attire. It's easily cleaned if dirtied with washing water, milk, or wine.",
+  "image": "thumb/Maid_Garb.png/128px-Maid_Garb.png?8b7497",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Maid Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A headwrap that's white as snow.",
+  "image": "thumb/Maid_Hat.png/128px-Maid_Hat.png?af4fe0",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
       "quantity": 5
      }
     ]
@@ -43652,189 +45411,6 @@
      {
       "name": "Mother-Of-Pearl",
       "quantity": 10
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Marksman Boots",
-  "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 13,
-  "biomes": null,
-  "description": "The Reinforced soles allow the wearer to skulk through mud undisturbed, and to reach vantage points quickly. Perfect for an ambush!",
-  "image": "thumb/Marksman_Boots.png/128px-Marksman_Boots.png?980e6b",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 8
-     },
-     {
-      "name": "Plant Fiber",
-      "quantity": 2
-     },
-     {
-      "name": "Dried Fur",
-      "quantity": 2
-     },
-     {
-      "name": "Brittle Shroud Petals",
-      "quantity": 5
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Marksman Gloves",
-  "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 13,
-  "biomes": null,
-  "description": "These gloves prevent the bowstring from digging into the skin while lining up shots.",
-  "image": "thumb/Marksman_Gloves.png/128px-Marksman_Gloves.png?552a73",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 2
-     },
-     {
-      "name": "Dried Fur",
-      "quantity": 3
-     },
-     {
-      "name": "Plant Fiber",
-      "quantity": 2
-     },
-     {
-      "name": "Brittle Shroud Petals",
-      "quantity": 3
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Marksman Hood",
-  "type": "Head Armor",
-  "rarity": "Common",
-  "level": 13,
-  "biomes": null,
-  "description": "A darkened hood which lets you blend into the woodland scenery more easily. A piece of red cloth covers the mouth, making you feel like a bandit.",
-  "image": "thumb/Marksman_Hood.png/128px-Marksman_Hood.png?88c0d1",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 2
-     },
-     {
-      "name": "Twigs",
-      "quantity": 1
-     },
-     {
-      "name": "Dried Fur",
-      "quantity": 2
-     },
-     {
-      "name": "Plant Fiber",
-      "quantity": 3
-     },
-     {
-      "name": "Corrupted Boar Tusk",
-      "quantity": 1
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Marksman Trousers",
-  "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 13,
-  "biomes": null,
-  "description": "The added leather grants superior protection from jagged rocks, unruly tree bark, and incoming arrows.",
-  "image": "thumb/Marksman_Trousers.png/128px-Marksman_Trousers.png?8372c1",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 5
-     },
-     {
-      "name": "Plant Fiber",
-      "quantity": 3
-     },
-     {
-      "name": "Dried Fur",
-      "quantity": 4
-     },
-     {
-      "name": "Shroud Mushroom",
-      "quantity": 5
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Marksman Vest",
-  "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 13,
-  "biomes": null,
-  "description": "A warm, padded vest. Ideal for enduring cold nights while awaiting the time to strike.",
-  "image": "thumb/Marksman_Vest.png/128px-Marksman_Vest.png?b4c11a",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 4
-     },
-     {
-      "name": "Plant Fiber",
-      "quantity": 5
-     },
-     {
-      "name": "Dried Fur",
-      "quantity": 5
-     },
-     {
-      "name": "Twigs",
-      "quantity": 2
-     },
-     {
-      "name": "Giant Critter Scales",
-      "quantity": 3
      }
     ]
    }
@@ -44952,10 +46528,10 @@
  {
   "name": "Mercenary Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Some scratched up Mercenary Boots. Kick your enemies when they're down !",
+  "description": "Some scratched up Mercenary Boots. Kick your enemies when they're down!",
   "image": "thumb/Mercenary_Boots.png/128px-Mercenary_Boots.png?cde4be",
   "recipes": [
    {
@@ -44989,8 +46565,8 @@
  {
   "name": "Mercenary Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A heavy breastplate that has lost its shine, but not its notoriety.",
   "image": "thumb/Mercenary_Chest.png/128px-Mercenary_Chest.png?aba204",
@@ -45030,8 +46606,8 @@
  {
   "name": "Mercenary Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Mercenary Gloves. They're worth their weight in gold.",
   "image": "thumb/Mercenary_Gloves.png/128px-Mercenary_Gloves.png?46c662",
@@ -45067,8 +46643,8 @@
  {
   "name": "Mercenary Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This sturdy Mercenary Helmet protects your eyes and hides your expression, making you appear fearless and intimidating.",
   "image": "thumb/Mercenary_Helmet.png/128px-Mercenary_Helmet.png?b56575",
@@ -45141,8 +46717,8 @@
  {
   "name": "Mercenary Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A piece of leg armor that already looks like it has seen many years of use.",
   "image": "thumb/Mercenary_Trousers.png/128px-Mercenary_Trousers.png?9474f9",
@@ -45522,6 +47098,75 @@
   "recipes": []
  },
  {
+  "name": "Milkmaid Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Simple shoes with flat heels that pair well with dark stockings.",
+  "image": "thumb/Milkmaid_Boots.png/128px-Milkmaid_Boots.png?bce59e",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Milkmaid Garb",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A grassy green dress for housekeeping or working on the farm.",
+  "image": "thumb/Milkmaid_Garb.png/128px-Milkmaid_Garb.png?fd09f1",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Milkmaid Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A milky white headwrap that keeps your hair out of your face while working.",
+  "image": "thumb/Milkmaid_Hat.png/128px-Milkmaid_Hat.png?ddb154",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Mill",
   "type": "Furniture",
   "rarity": "Rare",
@@ -45563,8 +47208,8 @@
  {
   "name": "Miner Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 45,
+  "rarity": "Epic",
+  "level": null,
   "biomes": null,
   "description": "A miner's helmet with an attached light.",
   "image": "thumb/Miner_Helmet.png/128px-Miner_Helmet.png?8aec08",
@@ -45629,6 +47274,29 @@
      {
       "name": "Alternative Crafting Ingredients",
       "quantity": 2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Minstrel Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A colorful and flashy hat, often worn by poets, minstrels, or traders of luxurious goods.",
+  "image": "thumb/Minstrel_Hat.png/128px-Minstrel_Hat.png?83624a",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
      }
     ]
    }
@@ -45917,8 +47585,8 @@
  {
   "name": "Mountain's Shadow Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These boots repeat the same weaving technique from the Mountain's Shadow Gloves. They cover the knees and provide ideal protection when stumbling through dark, icy caves or forgotten fortresses.",
   "image": "thumb/Mountain%27s_Shadow_Boots.png/128px-Mountain%27s_Shadow_Boots.png?db3e20",
@@ -45952,10 +47620,10 @@
  {
   "name": "Mountain's Shadow Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "No matter where you turn, the celestial crags of the mountainside always crast a dark shadow over the valleys. With this piece of armor, you can blend into the dark and travel lightly like a freezing gust of wind to find your enemies.",
+  "description": "No matter where you turn, the celestial crags of the mountainside always cast a dark shadow over the valleys. With this piece of armor, you can blend into the dark and travel lightly like a freezing gust of wind to find your enemies.",
   "image": "thumb/Mountain%27s_Shadow_Chest.png/128px-Mountain%27s_Shadow_Chest.png?f7d325",
   "recipes": [
    {
@@ -45991,10 +47659,10 @@
  {
   "name": "Mountain's Shadow Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Dark leather patterned arm guards wrapped in ashen grey strings. Wool padding peeks out from beneath them when wielding your weapon fiercly.",
+  "description": "Dark leather patterned arm guards wrapped in ashen grey strings. Wool padding peeks out from beneath them when wielding your weapon fiercely.",
   "image": "thumb/Mountain%27s_Shadow_Gloves.png/128px-Mountain%27s_Shadow_Gloves.png?88bbb9",
   "recipes": [
    {
@@ -46026,8 +47694,8 @@
  {
   "name": "Mountain's Shadow Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A gloomy helmet, hiding an even darker gaze. The crest around the brow casts a shadow over the wearer's eyes, hiding their intention.",
   "image": "thumb/Mountain%27s_Shadow_Helmet.png/128px-Mountain%27s_Shadow_Helmet.png?62e5f1",
@@ -46098,8 +47766,8 @@
  {
   "name": "Mountain's Shadow Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A pair of charcoal black, loosely fitted pants. The larger silhouette stems from the extensive wool padding inside.",
   "image": "thumb/Mountain%27s_Shadow_Trousers.png/128px-Mountain%27s_Shadow_Trousers.png?14a42b",
@@ -46163,6 +47831,16 @@
     ]
    }
   ]
+ },
+ {
+  "name": "Mycelium",
+  "type": null,
+  "rarity": null,
+  "level": null,
+  "biomes": null,
+  "description": null,
+  "image": "thumb/Mycelium.png/128px-Mycelium.png?eaf409",
+  "recipes": []
  },
  {
   "name": "Mycelium (Material)",
@@ -46457,6 +48135,121 @@
      },
      {
       "name": "Alternative Crafting Ingredients",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Noble Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These boots must've previously been worn by a solemn noble quietly roaming through the church gardens.",
+  "image": "thumb/Noble_Boots.png/128px-Noble_Boots.png?501845",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Noble Diadem",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "An elegantly twisted metal headband, adorned with an eye-catching stone.",
+  "image": "thumb/Noble_Diadem.png/128px-Noble_Diadem.png?5431ac",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Noble Dress",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A long, flowing garment. The lower seam effortlessly hovers around the ankles while you walk.",
+  "image": "thumb/Noble_Dress.png/128px-Noble_Dress.png?f6ef4f",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Noble Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These lightweight gloves are perfect for holding a quill and signing decrees.",
+  "image": "thumb/Noble_Gloves.png/128px-Noble_Gloves.png?4abed1",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Noble Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These sleek trousers are usually worn underneath more lavish dresses or tunics.",
+  "image": "thumb/Noble_Pants.png/128px-Noble_Pants.png?78e553",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
       "quantity": 5
      }
     ]
@@ -46761,10 +48554,10 @@
  {
   "name": "Omen Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
-  "description": "Unknown footprints in the mud are always a bad omen, whether one is superstitious or not. Offers extended protection against the Shroud.",
+  "description": "Unknown footprints in the mud are always a bad omen, wether one is superstitious or not. Offers extended protection against the Shroud.",
   "image": "thumb/Omen_Boots.png/128px-Omen_Boots.png?3ec1b3",
   "recipes": [
    {
@@ -46796,8 +48589,8 @@
  {
   "name": "Omen Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "An ordinary leather coat. A fungal growth overtook the flat grain texture. Offers extended protection against the Shroud.",
   "image": "thumb/Omen_Chest.png/128px-Omen_Chest.png?abc022",
@@ -46835,8 +48628,8 @@
  {
   "name": "Omen Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "Gloves made from rotting, undead matter. They claw at their wearer's upper arms as if to grow upwards.",
   "image": "thumb/Omen_Gloves.png/128px-Omen_Gloves.png?ede08d",
@@ -46870,8 +48663,8 @@
  {
   "name": "Omen Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "A living shell to encase the wearer's face like an iron maiden. Offers extended protection against the Shroud.",
   "image": "thumb/Omen_Helmet.png/128px-Omen_Helmet.png?2afb4d",
@@ -46905,8 +48698,8 @@
  {
   "name": "Omen Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "Dark chestnut-colored pants. They're less frayed and battered than the remainder of the Omen's armor. Offers extended protection against the Shroud.",
   "image": "thumb/Omen_Trousers.png/128px-Omen_Trousers.png?270198",
@@ -48525,8 +50318,8 @@
  {
   "name": "Pearlfrost Mentor Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Tied dark leather boots with quilted fabric sections. They reach up to the wearer's knees, protecting the shins from deep snow.",
   "image": "thumb/Pearlfrost_Mentor_Boots.png/128px-Pearlfrost_Mentor_Boots.png?2bdeea",
@@ -48560,8 +50353,8 @@
  {
   "name": "Pearlfrost Mentor Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "It's an expertly layered blue coat with a white fur trim. The quilted cloth and leather provide better protection in close combat. The gold casing near the heart carries a faceted gem and resembles a cornflower blue eye, searching the battlefield for souls in need.",
   "image": "thumb/Pearlfrost_Mentor_Chest.png/128px-Pearlfrost_Mentor_Chest.png?a030ba",
@@ -48599,10 +50392,10 @@
  {
   "name": "Pearlfrost Mentor Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "With these padded gloves, you can easily scale any cliff to reach snowed-in souls in need",
+  "description": "With these padded gloves, you can easily scale any cliff to reach snowed-in souls in need.",
   "image": "thumb/Pearlfrost_Mentor_Gloves.png/128px-Pearlfrost_Mentor_Gloves.png?73557a",
   "recipes": [
    {
@@ -48634,8 +50427,8 @@
  {
   "name": "Pearlfrost Mentor Hat",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "When wounded warriors see this hat peak up from the horizon, they know salvation is near. Then they notice that the hat is a little bit cone-shaped. They usually don't say anything about it, though.",
   "image": "thumb/Pearlfrost_Mentor_Hat.png/128px-Pearlfrost_Mentor_Hat.png?46fa63",
@@ -48669,8 +50462,8 @@
  {
   "name": "Pearlfrost Mentor Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A pair of warm pants, tinged in a deep blue. It provides ample protection from the elements.",
   "image": "thumb/Pearlfrost_Mentor_Pants.png/128px-Pearlfrost_Mentor_Pants.png?889213",
@@ -49325,8 +51118,8 @@
  {
   "name": "Plaguebringer Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "These boots are always damp, even on the inside. Walking in them feels like wading through a bog. Offers extended protection against the Shroud.",
   "image": "thumb/Plaguebringer_Boots.png/128px-Plaguebringer_Boots.png?c7044a",
@@ -49360,10 +51153,10 @@
  {
   "name": "Plaguebringer Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
-  "description": "Countless cankerous growths sprout from this leather armour, thus forging it in a new image. Offers extended protection against the Shroud.",
+  "description": "Countless cankerous growths sprout from this leather armor, thus forging it in a new image. Offers extended protection against the Shroud.",
   "image": "thumb/Plaguebringer_Chest.png/128px-Plaguebringer_Chest.png?52da08",
   "recipes": [
    {
@@ -49399,8 +51192,8 @@
  {
   "name": "Plaguebringer Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "These traditional archer gloves were made asymmetrical through multiple monstrous tusks and bone shards jutting outwards.",
   "image": "thumb/Plaguebringer_Gloves.png/128px-Plaguebringer_Gloves.png?2180c5",
@@ -49434,10 +51227,10 @@
  {
   "name": "Plaguebringer Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
-  "description": "Putrescence laps the side of this brown hood, like a wave of pestilence crashing to shore. Offers extended protection against the Shroud.",
+  "description": "Putrescence laps against the side of this brown hood, like a wave of pestilence crashing to shore. Offers extended protection against the Shroud.",
   "image": "thumb/Plaguebringer_Hood.png/128px-Plaguebringer_Hood.png?7d932e",
   "recipes": [
    {
@@ -49469,8 +51262,8 @@
  {
   "name": "Plaguebringer Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
+  "rarity": "Rare",
+  "level": null,
   "biomes": null,
   "description": "Leather pants with noticeable grain that morphs into fine fungal tendrils. Offers extended protection against the Shroud.",
   "image": "thumb/Plaguebringer_Trousers.png/128px-Plaguebringer_Trousers.png?73d55b",
@@ -51432,10 +53225,10 @@
  {
   "name": "Quetzal Hunter Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "As Quetzals no longer roam Embervale, dyed palm laves are used in place of their feathers to recreate the look.",
+  "description": "As Quetzals no longer roam Embervale, dyed palm leaves are used in place of their feathers to recreate the look.",
   "image": "thumb/Quetzal_Hunter_Chest.png/128px-Quetzal_Hunter_Chest.png?89b14a",
   "recipes": [
    {
@@ -51471,8 +53264,8 @@
  {
   "name": "Quetzal Hunter Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These gauntlets shield your arms as you chase through the undergrowth, striking foes from afar.",
   "image": "thumb/Quetzal_Hunter_Gloves.png/128px-Quetzal_Hunter_Gloves.png?b0453d",
@@ -51510,8 +53303,8 @@
  {
   "name": "Quetzal Hunter Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Inspired by the Quetzal, a magnificent bird that once graced the skies of Embervale, this beautiful armor set lets you feel the freedom and precision of flight when you wear it.",
   "image": "thumb/Quetzal_Hunter_Helmet.png/128px-Quetzal_Hunter_Helmet.png?b29b69",
@@ -51545,8 +53338,8 @@
  {
   "name": "Quetzal Hunter Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "They let you sprint through the thicket with the swiftness of wings.",
   "image": "thumb/Quetzal_Hunter_Pants.png/128px-Quetzal_Hunter_Pants.png?f23b3f",
@@ -51584,8 +53377,8 @@
  {
   "name": "Quetzal Hunter Shoes",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "In these shoes, you glide through the thicket effortlessly, barely breaking a sweat.",
   "image": "thumb/Quetzal_Hunter_Shoes.png/128px-Quetzal_Hunter_Shoes.png?882b8e",
@@ -51665,12 +53458,12 @@
     "quantity": 1,
     "ingredients": [
      {
-      "name": "String",
-      "quantity": 2
-     },
-     {
       "name": "Torn Cloth",
       "quantity": 3
+     },
+     {
+      "name": "String",
+      "quantity": 2
      }
     ]
    }
@@ -51682,7 +53475,7 @@
   "rarity": "Common",
   "level": 3,
   "biomes": null,
-  "description": "Enough to brace for the worst of it, until better armor crosses your path.",
+  "description": "Enough to brace the worst of it, until better armor crosses your path.",
   "image": "thumb/Ragged_Pants.png/128px-Ragged_Pants.png?3f336c",
   "recipes": [
    {
@@ -51694,11 +53487,11 @@
     "quantity": 1,
     "ingredients": [
      {
-      "name": "String",
+      "name": "Torn Cloth",
       "quantity": 2
      },
      {
-      "name": "Torn Cloth",
+      "name": "String",
       "quantity": 2
      }
     ]
@@ -51770,8 +53563,8 @@
  {
   "name": "Ranger Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These boots were made for those wishing to lurk quietly through the thicket.",
   "image": "thumb/Ranger_Boots.png/128px-Ranger_Boots.png?40592a",
@@ -51805,8 +53598,8 @@
  {
   "name": "Ranger Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Simple gloves made from ethically sourced organic leather.",
   "image": "thumb/Ranger_Gloves.png/128px-Ranger_Gloves.png?68720f",
@@ -51840,8 +53633,8 @@
  {
   "name": "Ranger Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A hood that provides additional protection from the sun, allowing you to focus your gaze undisturbed.",
   "image": "thumb/Ranger_Hood.png/128px-Ranger_Hood.png?95bee8",
@@ -51875,8 +53668,8 @@
  {
   "name": "Ranger Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Pants which shield the legs from brambles and thorns while hunting down prey.",
   "image": "thumb/Ranger_Trousers.png/128px-Ranger_Trousers.png?6d23f4",
@@ -51914,8 +53707,8 @@
  {
   "name": "Ranger Vest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This piece of armor only offers minor protection against incoming arrows, but that hardly matters. The best preventative measure is to aim for the eyes.",
   "image": "thumb/Ranger_Vest.png/128px-Ranger_Vest.png?fd6bfc",
@@ -53280,8 +55073,8 @@
  {
   "name": "Rising Fighter Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Footwork is the most important skill of swordsmanship. These boots should make learning the first steps easier.",
   "image": "thumb/Rising_Fighter_Boots.png/128px-Rising_Fighter_Boots.png?1459f2",
@@ -53305,7 +55098,7 @@
       "quantity": 1
      },
      {
-      "name": "Mycelium (Material)",
+      "name": "Mycelium",
       "quantity": 15
      }
     ]
@@ -53315,10 +55108,10 @@
  {
   "name": "Rising Fighter Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Light, polstered and ready to take a few hits - the perfect chest armor for begginer.",
+  "description": "Light, polstered and ready to take a few hits - the perfect chest armor for a beginner.",
   "image": "thumb/Rising_Fighter_Chest.png/128px-Rising_Fighter_Chest.png?8ee550",
   "recipes": [
    {
@@ -53354,8 +55147,8 @@
  {
   "name": "Rising Fighter Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Gloves made for beginner fighters. Robust, but agile. They will mainly protect you from blisters when swinging your sword.",
   "image": "thumb/Rising_Fighter_Gloves.png/128px-Rising_Fighter_Gloves.png?481424",
@@ -53389,7 +55182,7 @@
  {
   "name": "Rising Fighter Helmet",
   "type": "Head Armor",
-  "rarity": "Common-Legendary",
+  "rarity": "Common - Legendary",
   "level": null,
   "biomes": null,
   "description": "A head piece to keep your skull safe when diving into battle.",
@@ -53455,8 +55248,8 @@
  {
   "name": "Rising Fighter Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Polstered trousers to dampen your fall in fighting practice.",
   "image": "thumb/Rising_Fighter_Trousers.png/128px-Rising_Fighter_Trousers.png?ce10fe",
@@ -53656,10 +55449,10 @@
  {
   "name": "Rogue Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Adventures who wear these fearsome boots should not be messed with.",
+  "description": "Adventurers who wear these fearsome boots should not be messed with.",
   "image": "thumb/Rogue_Boots.png/128px-Rogue_Boots.png?113003",
   "recipes": [
    {
@@ -53691,10 +55484,10 @@
  {
   "name": "Rogue Chestplate",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "A well - balanced chest piece that lets the wearer regenerate their energy faster.",
+  "description": "A well-balanced chest piece that lets the wearer regenerate their energy faster.",
   "image": "thumb/Rogue_Chestplate.png/128px-Rogue_Chestplate.png?3834dc",
   "recipes": [
    {
@@ -53730,10 +55523,10 @@
  {
   "name": "Rogue Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Protects the fingers from traps and cuts. A rogue's best friend !",
+  "description": "Protects the fingers from traps and cuts. A rogue's best friend!",
   "image": "thumb/Rogue_Gloves.png/128px-Rogue_Gloves.png?4600f7",
   "recipes": [
    {
@@ -53765,10 +55558,10 @@
  {
   "name": "Rogue Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "A sturdy helmet that protects the wearer from slashes, cuts and scars.",
+  "description": "A sturdy helmet that protects the wearer from slashes, cuts, and scars.",
   "image": "thumb/Rogue_Helmet.png/128px-Rogue_Helmet.png?4c69dc",
   "recipes": [
    {
@@ -53837,8 +55630,8 @@
  {
   "name": "Rogue Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The metal plates provide added protection against jagged or poisoned arrows.",
   "image": "thumb/Rogue_Trousers.png/128px-Rogue_Trousers.png?d98d46",
@@ -54572,6 +56365,52 @@
   ]
  },
  {
+  "name": "Royal Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Stomp out anti-feudalist uprisings in style with these fashionable and finely crafted shoes!",
+  "image": "thumb/Royal_Boots.png/128px-Royal_Boots.png?3a04c9",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Royal Crown",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Uneasy lies the head that wears a crown.",
+  "image": "thumb/Royal_Crown.png/128px-Royal_Crown.png?e356b5",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Royal Decree",
   "type": "Generic Item",
   "rarity": "Common",
@@ -54603,6 +56442,75 @@
      {
       "name": "Amethyst",
       "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Royal Doublet",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A comfortable and noble doublet with a little cape attached to it. Every design element was carefully chosen to create an honorable look.",
+  "image": "thumb/Royal_Doublet.png/128px-Royal_Doublet.png?bf3c72",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Royal Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These gloves are a bit stiff and barely functional. The most important thing is that they look impressive to peasants. You won't need to do manual labor, anyway.",
+  "image": "thumb/Royal_Gloves.png/128px-Royal_Gloves.png?92d25b",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Royal Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Billowy pants that were made from the finest silks. They create an interesting and lavish silhouette.",
+  "image": "thumb/Royal_Pants.png/128px-Royal_Pants.png?954b63",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
      }
     ]
    }
@@ -55186,10 +57094,10 @@
  {
   "name": "Sage Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Comfortable and modest shoes for lounging in library.",
+  "description": "Comfortable and modest shoes for lounging in a library.",
   "image": "thumb/Sage_Boots.png/128px-Sage_Boots.png?8c966f",
   "recipes": [
    {
@@ -55221,8 +57129,8 @@
  {
   "name": "Sage Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "In old times these gloves were worn by the wisest scholars of the kingdom, often hiding wrinkled and gray flesh underneath.",
   "image": "thumb/Sage_Gloves.png/128px-Sage_Gloves.png?91a23f",
@@ -55256,8 +57164,8 @@
  {
   "name": "Sage Headwrap",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "You can't read sacred scrolls if you can't see, but true understanding comes from within, anyway.",
   "image": "thumb/Sage_Headwrap.png/128px-Sage_Headwrap.png?47788c",
@@ -55301,10 +57209,10 @@
  {
   "name": "Sage Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Remarkable pants. What makes them remarkable? The weaver, mostly.",
+  "description": "Remarkable pants. What makes them remarkable? The wearer, mostly.",
   "image": "thumb/Sage_Pants.png/128px-Sage_Pants.png?ddbccf",
   "recipes": [
    {
@@ -55396,8 +57304,8 @@
  {
   "name": "Sage Tunic",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "An illustrious garb that almost shines brighter than the wearer's spirit.",
   "image": "thumb/Sage_Tunic.png/128px-Sage_Tunic.png?b02e82",
@@ -56051,6 +57959,236 @@
   ]
  },
  {
+  "name": "Scholar Of The Empyrean Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "With these boots, the \"Scholars of the Empyrean\" were able to pass the trapped corridors of the Night Sanctums. Their soles, often worn thin, were replaced countless times. Hopefully, they'll carry you just as far on your own journey.",
+  "image": "thumb/Scholar_Of_The_Empyrean_Boots.png/128px-Scholar_Of_The_Empyrean_Boots.png?6007d9",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Empyrean Cloak",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "This ceremonial robe belonged to an honorable \"Scholar of the Empyrean\", worn during sacred offerings in the Night Sanctums. Wear this piece with the same pride the previous owner did.",
+  "image": "thumb/Scholar_Of_The_Empyrean_Cloak.png/128px-Scholar_Of_The_Empyrean_Cloak.png?68dbe5",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Empyrean Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These black and gold gloves once carried the knowledge and secrets of the humans. Don't be intimidated by the power they literally once held.",
+  "image": "thumb/Scholar_Of_The_Empyrean_Gloves.png/128px-Scholar_Of_The_Empyrean_Gloves.png?5da9bd",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Empyrean Helmet",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "The radiant golden glow of this helmet recalls the bright spirit of the previous owner. In Embervale, this helmet was reserved for only the brightest thinkers, whose intellect lit the way.",
+  "image": "thumb/Scholar_Of_The_Empyrean_Helmet.png/128px-Scholar_Of_The_Empyrean_Helmet.png?cc0808",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Empyrean Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Simple black pants with delicate golden details. Inconspicuous on its own, but in perfect harmony with the other parts of this set. The hems have been rethreaded many times, worn thin by long journeys through Embervale. A quiet statement to the distance once walked by the \"Scholars of the Empyrean\".",
+  "image": "thumb/Scholar_Of_The_Empyrean_Pants.png/128px-Scholar_Of_The_Empyrean_Pants.png?8231f0",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Young Flame Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "These golden boots carried the \"Scholars of the Young Flame\" across the open roads of Embervale. The soles still carry dust from places you have yet to discover.",
+  "image": "thumb/Scholar_Of_The_Young_Flame_Boots.png/128px-Scholar_Of_The_Young_Flame_Boots.png?dffb32",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Young Flame Cloak",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A resplendent white-and-gold cloak interwoven with iridescent threads. Worn by the \"Scholars of the Young Flame\", it symbolizes the burning desire to illuminate the unknown.",
+  "image": "thumb/Scholar_Of_The_Young_Flame_Cloak.png/128px-Scholar_Of_The_Young_Flame_Cloak.png?8ed996",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Young Flame Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Gleaming golden gloves were the mark of a Scholar in motion, swift of thought and radiant of heart.",
+  "image": "thumb/Scholar_Of_The_Young_Flame_Gloves.png/128px-Scholar_Of_The_Young_Flame_Gloves.png?4e0950",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Young Flame Helmet",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A radiant headpiece that can be spotted from afar. Not only when the burning sun reflects off of it.",
+  "image": "thumb/Scholar_Of_The_Young_Flame_Helmet.png/128px-Scholar_Of_The_Young_Flame_Helmet.png?9e8863",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scholar Of The Young Flame Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Delicate fabric with intricate details, ever-shifting with the angle of the sun. Worn by the Scholars who chased knowledge across these lands.",
+  "image": "thumb/Scholar_Of_The_Young_Flame_Pants.png/128px-Scholar_Of_The_Young_Flame_Pants.png?21d6ee",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Scientific Instruments",
   "type": "Furniture",
   "rarity": "Common",
@@ -56090,8 +58228,8 @@
  {
   "name": "Scout Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The path of the scout is a little easier on quiet soles.",
   "image": "thumb/Scout_Boots.png/128px-Scout_Boots.png?735a9e",
@@ -56115,7 +58253,7 @@
       "quantity": 2
      },
      {
-      "name": "Mycelium (Material)",
+      "name": "Mycelium",
       "quantity": 15
      }
     ]
@@ -56125,8 +58263,8 @@
  {
   "name": "Scout Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A simple, light chest piece to complement the rest of the armor.",
   "image": "thumb/Scout_Chest.png/128px-Scout_Chest.png?24e708",
@@ -56160,8 +58298,8 @@
  {
   "name": "Scout Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Excellent tools to scout with - especially due to their grip and padding.",
   "image": "thumb/Scout_Gloves.png/128px-Scout_Gloves.png?748d9b",
@@ -56195,8 +58333,8 @@
  {
   "name": "Scout Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The perfect disguise - even in broad daylight.",
   "image": "thumb/Scout_Hood.png/128px-Scout_Hood.png?50514b",
@@ -56230,8 +58368,8 @@
  {
   "name": "Scout Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 8,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Silent pants to tread quietly.",
   "image": "thumb/Scout_Pants.png/128px-Scout_Pants.png?fac0a4",
@@ -57780,217 +59918,6 @@
   "description": "This is a rare, midnight-black variant of the Stripetail. Its dark scales absorb light, making it nearly invisible underwater. This patient predator strikes from the depths when you least expect it.",
   "image": "thumb/Shadowtail.png/128px-Shadowtail.png?2144e8",
   "recipes": []
- },
- {
-  "name": "Sharpshooter Boots",
-  "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 18,
-  "biomes": null,
-  "description": "With these weighted soles, even shaky or uneven ground will not disturb your aim.",
-  "image": "thumb/Sharpshooter_Boots.png/128px-Sharpshooter_Boots.png?cc3d96",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 10
-     },
-     {
-      "name": "Leather",
-      "quantity": 6
-     },
-     {
-      "name": "Mint Mushroom Meat",
-      "quantity": 2
-     },
-     {
-      "name": "Resin",
-      "quantity": 6
-     },
-     {
-      "name": "Corrosive Blood",
-      "quantity": 3
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Sharpshooter Gloves",
-  "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 18,
-  "biomes": null,
-  "description": "Wearing these gloves makes the pulse slow down mysteriously before going in for the kill, thus steadying the hands.",
-  "image": "thumb/Sharpshooter_Gloves.png/128px-Sharpshooter_Gloves.png?92b097",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 3
-     },
-     {
-      "name": "Leather",
-      "quantity": 3
-     },
-     {
-      "name": "Indigo Plant",
-      "quantity": 1
-     },
-     {
-      "name": "Straw",
-      "quantity": 2
-     },
-     {
-      "name": "Mint Mushroom Meat",
-      "quantity": 2
-     },
-     {
-      "name": "Ammonia Gland",
-      "quantity": 3
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Sharpshooter Hood",
-  "type": "Head Armor",
-  "rarity": "Common",
-  "level": 18,
-  "biomes": null,
-  "description": "The metal adorment on this hood faintly resembles the beak of a hawk.",
-  "image": "thumb/Sharpshooter_Hood.png/128px-Sharpshooter_Hood.png?668dd8",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 3
-     },
-     {
-      "name": "Leather",
-      "quantity": 4
-     },
-     {
-      "name": "Mint Mushroom Meat",
-      "quantity": 2
-     },
-     {
-      "name": "Indigo Plant",
-      "quantity": 1
-     },
-     {
-      "name": "Straw",
-      "quantity": 1
-     },
-     {
-      "name": "Shroud Gelatin",
-      "quantity": 3
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Sharpshooter Trousers",
-  "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 18,
-  "biomes": null,
-  "description": "The pants were made from varied materials and protect all the most important areas adequately.",
-  "image": "thumb/Sharpshooter_Trousers.png/128px-Sharpshooter_Trousers.png?2e8373",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 3
-     },
-     {
-      "name": "Leather",
-      "quantity": 4
-     },
-     {
-      "name": "Mint Mushroom Meat",
-      "quantity": 2
-     },
-     {
-      "name": "Indigo Plant",
-      "quantity": 1
-     },
-     {
-      "name": "Straw",
-      "quantity": 2
-     },
-     {
-      "name": "Ammonia Gland",
-      "quantity": 3
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Sharpshooter Vest",
-  "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 18,
-  "biomes": null,
-  "description": "The shoulder pads on this Sharpshooter Vest are exceptionally sharp and pointed like the tip of an arrow.",
-  "image": "thumb/Sharpshooter_Vest.png/128px-Sharpshooter_Vest.png?5ffad8",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Linen",
-      "quantity": 4
-     },
-     {
-      "name": "Leather",
-      "quantity": 6
-     },
-     {
-      "name": "Mint Mushroom Meat",
-      "quantity": 2
-     },
-     {
-      "name": "Indigo Plant",
-      "quantity": 1
-     },
-     {
-      "name": "Straw",
-      "quantity": 3
-     },
-     {
-      "name": "Shroud Adhesive",
-      "quantity": 9
-     }
-    ]
-   }
-  ]
  },
  {
   "name": "Shell Limestone",
@@ -59904,6 +61831,121 @@
   ]
  },
  {
+  "name": "Siren Seeker Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A pair of strappy sandals that make it easy to feel the sand and the sea.",
+  "image": "thumb/Siren_Seeker_Boots.png/128px-Siren_Seeker_Boots.png?a1602a",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Siren Seeker Chest",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Old fishing nets span across fabric, still carrying their spoils: Starfish, seashells, and strings of pearls are displayed proudly as accessories. Were they gifts from the mermaids and their folk, or simply lucky finds? It's hard to tell.",
+  "image": "thumb/Siren_Seeker_Chest.png/128px-Siren_Seeker_Chest.png?7308a0",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Siren Seeker Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Small wonders hide amidst the seagrass of the shores, begging to be freed by nimble hands. What will you find betwixt the reeds today? A sharp edge made dull, a fallen star in the sand, a bottled siren's wish? The waves have a way of changing everything they claim, so be careful on your search!",
+  "image": "thumb/Siren_Seeker_Gloves.png/128px-Siren_Seeker_Gloves.png?898654",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Siren Seeker Headband",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Fashioned from a piece of fishing net and seaborn trinkets. It keeps the hair out of your face while you dive.",
+  "image": "thumb/Siren_Seeker_Headband.png/128px-Siren_Seeker_Headband.png?a79e87",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Siren Seeker Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "The cloth of these billowy pants falls in ripples like waves in the cerulean sea.",
+  "image": "thumb/Siren_Seeker_Pants.png/128px-Siren_Seeker_Pants.png?8d8673",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Skull Candle",
   "type": "Comfort",
   "rarity": "Common",
@@ -59935,8 +61977,8 @@
  {
   "name": "Skull Stalker Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "You feel calm and guarded in this upper body armor - consider your next move carefully.",
   "image": "thumb/Skull_Stalker_Chest.png/128px-Skull_Stalker_Chest.png?b3f497",
@@ -59974,8 +62016,8 @@
  {
   "name": "Skull Stalker Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These gloves lock your hold on the bow - target the head with steady aim.",
   "image": "thumb/Skull_Stalker_Gloves.png/128px-Skull_Stalker_Gloves.png?bb1368",
@@ -60013,8 +62055,8 @@
  {
   "name": "Skull Stalker Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Pierce your foes through the heart - using your horns isn't necessary.",
   "image": "thumb/Skull_Stalker_Helmet.png/128px-Skull_Stalker_Helmet.png?4dbf81",
@@ -60048,8 +62090,8 @@
  {
   "name": "Skull Stalker Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These pants move with you through the underbrush, boosting your stamina as you stalk your prey.",
   "image": "thumb/Skull_Stalker_Pants.png/128px-Skull_Stalker_Pants.png?12526d",
@@ -60087,8 +62129,8 @@
  {
   "name": "Skull Stalker Shoes",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Seamlessly matching the rest of your outfit, these shoes let nothing stand between you and your goal.",
   "image": "thumb/Skull_Stalker_Shoes.png/128px-Skull_Stalker_Shoes.png?6f3816",
@@ -60519,120 +62561,11 @@
  {
   "name": "Sky Specter Boots",
   "type": "Foot Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These boots allow you to step as if carried by the clouds, silently prowling between silvery shadows.",
   "image": "thumb/Sky_Specter_Boots.png/128px-Sky_Specter_Boots.png?3df1e3",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Diamond Dust",
-      "quantity": 1
-     },
-     {
-      "name": "Ember Carapace",
-      "quantity": 4
-     },
-     {
-      "name": "Magma Gel",
-      "quantity": 5
-     },
-     {
-      "name": "Shroud Relic",
-      "quantity": 1
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Sky Specter Chest",
-  "type": "Upper Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
-  "biomes": null,
-  "description": "A royal blue gambeson that hides the wearer's blackened heart and devious intentions underneath. It allows you to blend into the night sky, providing the perfect camouflage for a downward strike.",
-  "image": "thumb/Sky_Specter_Chest.png/128px-Sky_Specter_Chest.png?a52347",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Gold Bars",
-      "quantity": 1
-     },
-     {
-      "name": "Celestium Bars",
-      "quantity": 2
-     },
-     {
-      "name": "Archaic Infusion",
-      "quantity": 1
-     },
-     {
-      "name": "Blue Fabric",
-      "quantity": 2
-     },
-     {
-      "name": "Archaic Core",
-      "quantity": 1
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Sky Specter Gloves",
-  "type": "Arm Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
-  "biomes": null,
-  "description": "Gloves with added metal rims that glisten like daggers in the dead of night.",
-  "image": "thumb/Sky_Specter_Gloves.png/128px-Sky_Specter_Gloves.png?24aa39",
-  "recipes": [
-   {
-    "crafter": "Hunter",
-    "stations": [],
-    "time": "Instant",
-    "quantity": 1,
-    "ingredients": [
-     {
-      "name": "Moonstone",
-      "quantity": 4
-     },
-     {
-      "name": "Celestium Bars",
-      "quantity": 2
-     },
-     {
-      "name": "Archaic Shards",
-      "quantity": 5
-     },
-     {
-      "name": "Diamond",
-      "quantity": 2
-     }
-    ]
-   }
-  ]
- },
- {
-  "name": "Sky Specter Helmet",
-  "type": "Head Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
-  "biomes": null,
-  "description": "A mask that conceals the face, framing it with faintly printed cloth ribbons that fly in the wind. It may cover the eyes, but the devilish horns betray the wearer's aching for chaos nonetheless.",
-  "image": "thumb/Sky_Specter_Helmet.png/128px-Sky_Specter_Helmet.png?56cf2c",
   "recipes": [
    {
     "crafter": "Hunter",
@@ -60645,9 +62578,75 @@
       "quantity": 1
      },
      {
-      "name": "Blue Fabric",
+      "name": "Celestium Bars",
       "quantity": 1
      },
+     {
+      "name": "Active Mycelium",
+      "quantity": 10
+     },
+     {
+      "name": "Diamond",
+      "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sky Specter Chest",
+  "type": "Upper Body Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "A royal blue gambeson that hides the wearer's blackened heart and devious intentions underneath. It allows you to blend into the night sky, providing the perfect camouflage for a downward strike.",
+  "image": "thumb/Sky_Specter_Chest.png/128px-Sky_Specter_Chest.png?a52347",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Bars",
+      "quantity": 2
+     },
+     {
+      "name": "Celestium Bars",
+      "quantity": 1
+     },
+     {
+      "name": "Red Fabric",
+      "quantity": 4
+     },
+     {
+      "name": "Archaic Infusion",
+      "quantity": 1
+     },
+     {
+      "name": "Archaic Core",
+      "quantity": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sky Specter Gloves",
+  "type": "Arm Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "Gloves with added metal rims that glisten like daggers in the dead of night.",
+  "image": "thumb/Sky_Specter_Gloves.png/128px-Sky_Specter_Gloves.png?24aa39",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
      {
       "name": "Magma Gel",
       "quantity": 5
@@ -60655,6 +62654,49 @@
      {
       "name": "Ember Carapace",
       "quantity": 4
+     },
+     {
+      "name": "Celestium Bars",
+      "quantity": 1
+     },
+     {
+      "name": "Sulfur",
+      "quantity": 10
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sky Specter Helmet",
+  "type": "Head Armor",
+  "rarity": "Common - Legendary",
+  "level": null,
+  "biomes": null,
+  "description": "A mask that conceals the face, framing it with faintly printed cloth ribbons that fly in the wind. It may cover the eyes, but the devilish horns betray the wearer's aching for chaos nonetheless.",
+  "image": "thumb/Sky_Specter_Helmet.png/128px-Sky_Specter_Helmet.png?56cf2c",
+  "recipes": [
+   {
+    "crafter": "Hunter",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Bursting Fell Heart",
+      "quantity": 1
+     },
+     {
+      "name": "Sulfur",
+      "quantity": 5
+     },
+     {
+      "name": "Moonstone",
+      "quantity": 5
+     },
+     {
+      "name": "Gold Bars",
+      "quantity": 1
      }
     ]
    }
@@ -60663,8 +62705,8 @@
  {
   "name": "Sky Specter Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common, Uncommon, Rare, Epic, Legendary",
-  "level": 45,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A pair of pants that is fit to hide under midnight gloom.",
   "image": "thumb/Sky_Specter_Pants.png/128px-Sky_Specter_Pants.png?e3513d",
@@ -60676,24 +62718,24 @@
     "quantity": 1,
     "ingredients": [
      {
-      "name": "Active Mycelium",
-      "quantity": 10
-     },
-     {
       "name": "Archaic Shards",
       "quantity": 5
      },
      {
-      "name": "Celestium Bars",
-      "quantity": 2
-     },
-     {
-      "name": "Blue Fabric",
+      "name": "Fabric",
       "quantity": 4
      },
      {
-      "name": "Sulfur",
+      "name": "Ember Carapace",
       "quantity": 5
+     },
+     {
+      "name": "Magma Gel",
+      "quantity": 5
+     },
+     {
+      "name": "Diamond",
+      "quantity": 1
      }
     ]
    }
@@ -62788,8 +64830,8 @@
  {
   "name": "Soldier Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A pair of boots which is covered in silvery scales. Your ankles will be safe and sound with these.",
   "image": "thumb/Soldier_Boots.png/128px-Soldier_Boots.png?cad893",
@@ -62823,8 +64865,8 @@
  {
   "name": "Soldier Chestplate",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This regal soldier's armor symbolizes chivalry, glory, and valor.",
   "image": "thumb/Soldier_Chestplate.png/128px-Soldier_Chestplate.png?627e37",
@@ -62862,8 +64904,8 @@
  {
   "name": "Soldier Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Few enemies can withstand even an unarmed blow dealt with these gloves.",
   "image": "thumb/Soldier_Gloves.png/128px-Soldier_Gloves.png?2353ca",
@@ -62897,8 +64939,8 @@
  {
   "name": "Soldier Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A finely crafted helmet, usually worn by the kingdom's most feared warriors and generals.",
   "image": "thumb/Soldier_Helmet.png/128px-Soldier_Helmet.png?2d9e0a",
@@ -62969,8 +65011,8 @@
  {
   "name": "Soldier Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Thick and reliable pants. Not very breathable, unfortunately.",
   "image": "thumb/Soldier_Trousers.png/128px-Soldier_Trousers.png?8cd322",
@@ -66039,6 +68081,121 @@
   "recipes": []
  },
  {
+  "name": "Summer Games Bangles",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "Asymmetrical bangles that aid viewers in visually differentiating your arm movements as you dash past them towards the finish line.",
+  "image": "thumb/Summer_Games_Bangles.png/128px-Summer_Games_Bangles.png?929312",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Summer Games Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A bandage wrap that lets your takeoff foot achieve maximum jump power. These light coverings make it easier to protect your soles from harm as you prepare to propel yourself through the air!",
+  "image": "thumb/Summer_Games_Boots.png/128px-Summer_Games_Boots.png?db8b88",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Summer Games Cropped Top",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "An athletic-looking top made from vibrant fabric, held together by leather straps. The cropped cut lets you show off your physique!",
+  "image": "thumb/Summer_Games_Cropped_Top.png/128px-Summer_Games_Cropped_Top.png?41e08d",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Summer Games Headband",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A sporty headband with gold accents. It matches the set's belt and makes you feel like the ruler of the Summer Games!",
+  "image": "thumb/Summer_Games_Headband.png/128px-Summer_Games_Headband.png?85ab05",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Summer Games Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "The brown trousers possess a reinforced and padded knee area, visible through the applied scale pattern.",
+  "image": "thumb/Summer_Games_Pants.png/128px-Summer_Games_Pants.png?66456d",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Summoning Staff",
   "type": "Essential",
   "rarity": "Rare",
@@ -66101,10 +68258,79 @@
   ]
  },
  {
+  "name": "Sunny Loungewear Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": 18,
+  "biomes": null,
+  "description": "These simple, comfortable boots are perfect for taking a stroll on a warm summer's day.",
+  "image": "thumb/Sunny_Loungewear_Boots.png/128px-Sunny_Loungewear_Boots.png?f04c82",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sunny Loungewear Garb",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": 18,
+  "biomes": null,
+  "description": "A breezy tunic that's perfect for a day by the shore.",
+  "image": "thumb/Sunny_Loungewear_Garb.png/128px-Sunny_Loungewear_Garb.png?cf4815",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sunny Loungewear Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": 18,
+  "biomes": null,
+  "description": "A pair of lightweight pants. They're simple and easily replaced, so it's not too bad if they become bleached by the sun or drenched with water.",
+  "image": "thumb/Sunny_Loungewear_Pants.png/128px-Sunny_Loungewear_Pants.png?c6095b",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Sunpiercer Chestplate",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The gleaming gold and vibrant green crystals adorning the chestplate make it a shield and a statement of enduring strength. Watch out for the spiked shoulder pads!",
   "image": "thumb/Sunpiercer_Chestplate.png/128px-Sunpiercer_Chestplate.png?517dc8",
@@ -66142,8 +68368,8 @@
  {
   "name": "Sunpiercer Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These gloves offer you sufficient protection when you engage in melee combat.",
   "image": "thumb/Sunpiercer_Gloves.png/128px-Sunpiercer_Gloves.png?ac24f2",
@@ -66181,8 +68407,8 @@
  {
   "name": "Sunpiercer Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Embody golden grandeur with this ornate helm - and a gaze as unyielding as stone itself.",
   "image": "thumb/Sunpiercer_Helmet.png/128px-Sunpiercer_Helmet.png?f37374",
@@ -66216,8 +68442,8 @@
  {
   "name": "Sunpiercer Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These pants are just as short as a foe's lifespan in your presence.",
   "image": "thumb/Sunpiercer_Pants.png/128px-Sunpiercer_Pants.png?c411a2",
@@ -66296,10 +68522,10 @@
  {
   "name": "Sunpiercer Shoes",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Thanks to their wrapping technique, these shoes provide good support while allowing you to remain agile.",
+  "description": "Thanks to their wrapping technique, these shoes provide good support while still allowing you to remain agile.",
   "image": "thumb/Sunpiercer_Shoes.png/128px-Sunpiercer_Shoes.png?734e8d",
   "recipes": [
    {
@@ -66681,10 +68907,10 @@
  {
   "name": "Swimfins",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 45,
+  "rarity": "Epic",
+  "level": null,
   "biomes": null,
-  "description": "Allows for faster swim sprints while submerged in water.",
+  "description": "Allow for faster swim sprints while submerged in water.",
   "image": "thumb/Swimfins.png/128px-Swimfins.png?6a899c",
   "recipes": [
    {
@@ -67212,8 +69438,8 @@
  {
   "name": "Tank Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A shiny pair of boots. They're so heavy that you'll practically be immovable when wearing them.",
   "image": "thumb/Tank_Boots.png/128px-Tank_Boots.png?98dce0",
@@ -67249,8 +69475,8 @@
  {
   "name": "Tank Chestplate",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The improved copper coating of this Tank Chestplate can withstand many more blows at the frontlines of battle.",
   "image": "thumb/Tank_Chestplate.png/128px-Tank_Chestplate.png?23cd29",
@@ -67290,10 +69516,10 @@
  {
   "name": "Tank Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Copper - plated gloves that protect the wearer's tender hands during a brawl.",
+  "description": "Copper-plated gloves that protect the wearer's tender hands during a brawl.",
   "image": "thumb/Tank_Gloves.png/128px-Tank_Gloves.png?c3f8e8",
   "recipes": [
    {
@@ -67327,8 +69553,8 @@
  {
   "name": "Tank Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A copper helmet that keeps your skull from harm while you protect your allies.",
   "image": "thumb/Tank_Helmet.png/128px-Tank_Helmet.png?282d56",
@@ -67364,8 +69590,8 @@
  {
   "name": "Tank Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 13,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These padded trousers have been hastily stitched at the seams. Despite that, they hold up well.",
   "image": "thumb/Tank_Trousers.png/128px-Tank_Trousers.png?b55ebd",
@@ -67809,8 +70035,8 @@
  {
   "name": "Thaumaturge Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A well-fitted pair of boots to round off the Thaumaturge armor set. The purple accents create a balanced overall look.",
   "image": "thumb/Thaumaturge_Boots.png/128px-Thaumaturge_Boots.png?2c6abe",
@@ -67844,8 +70070,8 @@
  {
   "name": "Thaumaturge Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This chest piece includes a silky white undergarment for warmth and a flowy cerulean cape for further insulation, and dramatic effect.",
   "image": "thumb/Thaumaturge_Chest.png/128px-Thaumaturge_Chest.png?a3aab9",
@@ -67883,8 +70109,8 @@
  {
   "name": "Thaumaturge Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Elaborate armguards that shield the wearer from snow, rime, and grime. An amethyst has been inserted into the gem slot, enabling a better mana flow when spellcasting.",
   "image": "thumb/Thaumaturge_Gloves.png/128px-Thaumaturge_Gloves.png?aba5da",
@@ -67918,8 +70144,8 @@
  {
   "name": "Thaumaturge Hat",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "An extravagantly exaggerated tricorn hat that shields the caster's head from snowfall. The imposing antlers are a wearable trophy representing the wearer's spirit animal.",
   "image": "thumb/Thaumaturge_Hat.png/128px-Thaumaturge_Hat.png?3abef0",
@@ -67953,8 +70179,8 @@
  {
   "name": "Thaumaturge Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This pair of pants has significant padding on the inside, allowing you to travel for longer periods in frost-ridden lands. Traditionally, hides from the wearer's spirit animal are used to create the padding, but wool will do in a pinch.",
   "image": "thumb/Thaumaturge_Pants.png/128px-Thaumaturge_Pants.png?88ca4f",
@@ -68209,8 +70435,8 @@
  {
   "name": "Tidecaller Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "They don't offer much protection, but enhance your magical abilities. The minimalist design also prevents you from getting sweaty hands.",
   "image": "thumb/Tidecaller_Gloves.png/128px-Tidecaller_Gloves.png?a18e3a",
@@ -68248,10 +70474,10 @@
  {
   "name": "Tidecaller Headpiece",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "A striking, extravagant headpiece, just as broad as your magical abilities -- but you might get stuck in the doorway.",
+  "description": "A striking, extravagant headpiece, just as broad as your magical abilities - but you might get stuck in the doorway.",
   "image": "thumb/Tidecaller_Headpiece.png/128px-Tidecaller_Headpiece.png?e6fec7",
   "recipes": [
    {
@@ -68283,8 +70509,8 @@
  {
   "name": "Tidecaller Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Those pants go perfectly with the tunic, creating a fluent transition. They allow enough air circulation to prevent overheating during battle.",
   "image": "thumb/Tidecaller_Pants.png/128px-Tidecaller_Pants.png?a46e08",
@@ -68322,8 +70548,8 @@
  {
   "name": "Tidecaller Shoes",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Stride forth in these shoes, as swiftly as your mana regenerates.",
   "image": "thumb/Tidecaller_Shoes.png/128px-Tidecaller_Shoes.png?51eaa8",
@@ -68357,8 +70583,8 @@
  {
   "name": "Tidecaller Tunic",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A light tunic, as majestic in appearance as the powers it bestows when you spread your arms wide.",
   "image": "thumb/Tidecaller_Tunic.png/128px-Tidecaller_Tunic.png?2c6789",
@@ -68955,10 +71181,33 @@
   "recipes": []
  },
  {
+  "name": "Trader Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A merchant's hat that will draw attention in the market square when paired with A LOUD ENOUGH VOICE and good deals!",
+  "image": "thumb/Trader_Hat.png/128px-Trader_Hat.png?a01121",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Trailblazer Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These heavy boots provide excellent resistance and enable a stronger stance when facing various behemoths.",
   "image": "thumb/Trailblazer_Boots.png/128px-Trailblazer_Boots.png?219993",
@@ -68992,8 +71241,8 @@
  {
   "name": "Trailblazer Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "This armor piece was made from a combination of soft materials and hard, scale-like plating to ensure the ultimate flow of movement and protection. It has small hunting trophies attached to various spaces.",
   "image": "thumb/Trailblazer_Chest.png/128px-Trailblazer_Chest.png?2e115f",
@@ -69031,8 +71280,8 @@
  {
   "name": "Trailblazer Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Sturdy gloves, dark as the midnight sky. They've been adorned with animal horns that were gathered during the hunt.",
   "image": "thumb/Trailblazer_Gloves.png/128px-Trailblazer_Gloves.png?4e6331",
@@ -69066,8 +71315,8 @@
  {
   "name": "Trailblazer Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The metal rim around this hood forms an elegant crown, jagging out from the wearer's skull. The shape of the tips is reminiscent of wings.",
   "image": "thumb/Trailblazer_Hood.png/128px-Trailblazer_Hood.png?c31404",
@@ -69101,8 +71350,8 @@
  {
   "name": "Trailblazer Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Pants made from deep blue cloth and patched leather. The layers on the inside provide good insulation against the bitter cold.",
   "image": "thumb/Trailblazer_Trousers.png/128px-Trailblazer_Trousers.png?943b8f",
@@ -69519,6 +71768,29 @@
      {
       "name": "Wood Planks",
       "quantity": 4
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Tricorn",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A distinguished hat with a folded-up brim. The front has been embellished with a small metal detail.",
+  "image": "thumb/Tricorn.png/128px-Tricorn.png?82422a",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
      }
     ]
    }
@@ -71163,7 +73435,7 @@
   "name": "Vorgoth's Soulbound Boots",
   "type": "Foot Armor",
   "rarity": "Legendary",
-  "level": 45,
+  "level": null,
   "biomes": null,
   "description": "Solid metal and forged shut. No gap, no give.",
   "image": "thumb/Vorgoth%27s_Soulbound_Boots.png/128px-Vorgoth%27s_Soulbound_Boots.png?866bf2",
@@ -71198,7 +73470,7 @@
   "name": "Vorgoth's Soulbound Chest",
   "type": "Upper Body Armor",
   "rarity": "Legendary",
-  "level": 45,
+  "level": null,
   "biomes": null,
   "description": "Squint and you might see a heart etched into the plate. More heart than Vorgoth himself has shown in years. His real one drowned in Elixir.",
   "image": "thumb/Vorgoth%27s_Soulbound_Chest.png/128px-Vorgoth%27s_Soulbound_Chest.png?eb6227",
@@ -71237,7 +73509,7 @@
   "name": "Vorgoth's Soulbound Crown",
   "type": "Head Armor",
   "rarity": "Legendary",
-  "level": 45,
+  "level": null,
   "biomes": null,
   "description": "His crown claws at him like reaching fingers. Much like the Mysterious Traveler, who needed no such grip to dig into his thoughts.",
   "image": "thumb/Vorgoth%27s_Soulbound_Crown.png/128px-Vorgoth%27s_Soulbound_Crown.png?2cd541",
@@ -71272,7 +73544,7 @@
   "name": "Vorgoth's Soulbound Gloves",
   "type": "Arm Armor",
   "rarity": "Legendary",
-  "level": 45,
+  "level": null,
   "biomes": null,
   "description": "Overlapping scales of metal sheathe each finger. Flexible enough for a firm grip, heavy enough to crush.",
   "image": "thumb/Vorgoth%27s_Soulbound_Gloves.png/128px-Vorgoth%27s_Soulbound_Gloves.png?5fe5ad",
@@ -71307,9 +73579,9 @@
   "name": "Vorgoth's Soulbound Pants",
   "type": "Lower Body Armor",
   "rarity": "Legendary",
-  "level": 45,
+  "level": null,
   "biomes": null,
-  "description": "Metal-clad from hip to heel, scales shifting with each step. unyielding to everything else.",
+  "description": "Metal-clad from hip to heel, scales shifting with each step - unyielding to everything else.",
   "image": "thumb/Vorgoth%27s_Soulbound_Pants.png/128px-Vorgoth%27s_Soulbound_Pants.png?c06249",
   "recipes": [
    {
@@ -72340,8 +74612,8 @@
  {
   "name": "Warden Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "No one can tread past you when you're wearing these steadfast boots.",
   "image": "thumb/Warden_Boots.png/128px-Warden_Boots.png?b2d485",
@@ -72375,8 +74647,8 @@
  {
   "name": "Warden Chestplate",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "An incredibly sturdy chest piece, often worn by generals or select members of the royal guard. It inspired fear as much as respect.",
   "image": "thumb/Warden_Chestplate.png/128px-Warden_Chestplate.png?1c1f7b",
@@ -72414,8 +74686,8 @@
  {
   "name": "Warden Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Heavy gloves that can swing any weapon with added might.",
   "image": "thumb/Warden_Gloves.png/128px-Warden_Gloves.png?fcea1a",
@@ -72449,8 +74721,8 @@
  {
   "name": "Warden Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Command respect with this Warden Helmet.",
   "image": "thumb/Warden_Helmet.png/128px-Warden_Helmet.png?4085aa",
@@ -72484,8 +74756,8 @@
  {
   "name": "Warden Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Gray pants which have been refined with expertly crafted metal parts.",
   "image": "thumb/Warden_Trousers.png/128px-Warden_Trousers.png?70518a",
@@ -72523,10 +74795,10 @@
  {
   "name": "Warlock Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Traditional warlock boots which protect the feet and allow the wearer to stampede over enemy remains.",
+  "description": "Traditional warlock boots, which protect the feet and allow the wearer to stampede over enemy remains.",
   "image": "thumb/Warlock_Boots.png/128px-Warlock_Boots.png?30dd84",
   "recipes": [
    {
@@ -72558,8 +74830,8 @@
  {
   "name": "Warlock Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Both spells and smiting blows are easily dealt with these marvelous warlock gloves.",
   "image": "thumb/Warlock_Gloves.png/128px-Warlock_Gloves.png?18a56e",
@@ -72593,8 +74865,8 @@
  {
   "name": "Warlock Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A helmet which protects your sensitive cranial bone from harm while riding into battle.",
   "image": "thumb/Warlock_Helmet.png/128px-Warlock_Helmet.png?d68393",
@@ -72628,8 +74900,8 @@
  {
   "name": "Warlock Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Historic pants, formerly the centerpiece of ceremonial warlock clothing.",
   "image": "thumb/Warlock_Pants.png/128px-Warlock_Pants.png?8d9a53",
@@ -72667,8 +74939,8 @@
  {
   "name": "Warlock Shirt",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 23,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A traditional garment which was historically worn by esteemed battle mages. Now, their ritualistic nature is a faint memory at best.",
   "image": "thumb/Warlock_Shirt.png/128px-Warlock_Shirt.png?f05bd2",
@@ -73059,10 +75331,10 @@
  {
   "name": "Waveborne Ritualist Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "With this footwear, the healing power of the earth flows straight through you -- can you feel it?",
+  "description": "With this footwear, the healing power of the earth flows straight through you - can you feel it?",
   "image": "thumb/Waveborne_Ritualist_Boots.png/128px-Waveborne_Ritualist_Boots.png?c11297",
   "recipes": [
    {
@@ -73094,10 +75366,10 @@
  {
   "name": "Waveborne Ritualist Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "Golden adornments define this set -- and naturally, the gloves are no exception.",
+  "description": "Golden adornments define this set - and naturally, the gloves are no exception.",
   "image": "thumb/Waveborne_Ritualist_Gloves.png/128px-Waveborne_Ritualist_Gloves.png?666dc6",
   "recipes": [
    {
@@ -73133,8 +75405,8 @@
  {
   "name": "Waveborne Ritualist Helmet",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "The mask veils the face, but not the intent. You are here to keep one safe.",
   "image": "thumb/Waveborne_Ritualist_Helmet.png/128px-Waveborne_Ritualist_Helmet.png?9dd1b1",
@@ -73168,8 +75440,8 @@
  {
   "name": "Waveborne Ritualist Pants",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "With their simplicity, these pants bring balance to the outfit and allow the wearer's presence to shine.",
   "image": "thumb/Waveborne_Ritualist_Pants.png/128px-Waveborne_Ritualist_Pants.png?ff2bef",
@@ -73207,10 +75479,10 @@
  {
   "name": "Waveborne Ritualist Tunic",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 43,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
-  "description": "A magnificent aquamarine gleams upon this garment, said to amplify the wearer's healing abilities.",
+  "description": "A magnificent aquamarine gleams upon this garment, said to amplify the wearer's healing abilities",
   "image": "thumb/Waveborne_Ritualist_Tunic.png/128px-Waveborne_Ritualist_Tunic.png?d286c9",
   "recipes": [
    {
@@ -73705,6 +75977,121 @@
   ]
  },
  {
+  "name": "Winterly Boots",
+  "type": "Foot Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A pair of comfortable boots perfect for snow days.",
+  "image": "thumb/Winterly_Boots.png/128px-Winterly_Boots.png?cf9a46",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Winterly Chest",
+  "type": "Upper Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A long furry coat, often worn by the citizens of the Albaneve Summits. It's very cozy.",
+  "image": "thumb/Winterly_Chest.png/128px-Winterly_Chest.png?8853fa",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Winterly Gloves",
+  "type": "Arm Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A classic pair of gloves. Don't they make you want to throw a snowball?",
+  "image": "thumb/Winterly_Gloves.png/128px-Winterly_Gloves.png?d8c3ba",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Winterly Hat",
+  "type": "Head Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A hat that looks like it protects your precious ears from the cold. It's just cosmetic, though.",
+  "image": "thumb/Winterly_Hat.png/128px-Winterly_Hat.png?6e4de5",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Winterly Pants",
+  "type": "Lower Body Cosmetic",
+  "rarity": "Cosmetic",
+  "level": null,
+  "biomes": null,
+  "description": "A pair of pants with fleece on the inside.",
+  "image": "thumb/Winterly_Pants.png/128px-Winterly_Pants.png?6d20d1",
+  "recipes": [
+   {
+    "crafter": "Lunar New Year Trader",
+    "stations": [],
+    "time": "Instant",
+    "quantity": 1,
+    "ingredients": [
+     {
+      "name": "Gold Coins",
+      "quantity": 5
+     }
+    ]
+   }
+  ]
+ },
+ {
   "name": "Wisp of Light",
   "type": "Consumables",
   "rarity": "Rare",
@@ -73808,8 +76195,8 @@
  {
   "name": "Wolf's Fang Boots",
   "type": "Foot Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "These spiked boots can cause a lot of damage when used to pierce arteries in one, swift swinging kick.",
   "image": "thumb/Wolf%27s_Fang_Boots.png/128px-Wolf%27s_Fang_Boots.png?a02a68",
@@ -73843,8 +76230,8 @@
  {
   "name": "Wolf's Fang Chest",
   "type": "Upper Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A robust chest piece, adorned with the fur of a white wolf. The colors blend in well with snowed-in, grey mountains.",
   "image": "thumb/Wolf%27s_Fang_Chest.png/128px-Wolf%27s_Fang_Chest.png?5db3a5",
@@ -73882,8 +76269,8 @@
  {
   "name": "Wolf's Fang Gloves",
   "type": "Arm Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "Silver-framed metal gloves with elaborate finger plates. The fingertip covers sharpen at the end into claw-like points.",
   "image": "thumb/Wolf%27s_Fang_Gloves.png/128px-Wolf%27s_Fang_Gloves.png?b2b735",
@@ -73917,8 +76304,8 @@
  {
   "name": "Wolf's Fang Hood",
   "type": "Head Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A hood fashioned from the scalp of a white wolf. The fangs at the front are still attached.",
   "image": "thumb/Wolf%27s_Fang_Hood.png/128px-Wolf%27s_Fang_Hood.png?5d8954",
@@ -73985,8 +76372,8 @@
  {
   "name": "Wolf's Fang Trousers",
   "type": "Lower Body Armor",
-  "rarity": "Common",
-  "level": 33,
+  "rarity": "Common - Legendary",
+  "level": null,
   "biomes": null,
   "description": "A pair of pants with leather greaves. They don't rustle while moving and muffle every little sound while sneaking around.",
   "image": "thumb/Wolf%27s_Fang_Trousers.png/128px-Wolf%27s_Fang_Trousers.png?d4c261",
